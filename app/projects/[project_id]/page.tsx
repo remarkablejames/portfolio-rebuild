@@ -226,12 +226,12 @@ export default function ProjectDetails({params}: any) {
                         {/* End Blog Article */}
                         {/* Sticky Share Group */}
                         <div className="sticky bottom-6 inset-x-0 text-center">
-                            <div className="inline-block bg-white shadow-md rounded-full py-3 px-4 dark:bg-gray-800">
+                            <div className="inline-block bg-white/10 backdrop-blur  shadow-md rounded-full py-3 px-4 dark:bg-gray-800">
                                 <div className="flex items-center gap-x-1.5">
                                     {/* Button */}
                                     <div className="hs-tooltip inline-block">
                                         <div
-                                            className="hs-tooltip-toggle flex items-center gap-x-2 text-sm text-gray-500 hover:text-gray-800 dark:text-gray-400 dark:hover:text-gray-200 dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-gray-600"
+                                            className="hs-tooltip-toggle flex items-center gap-x-2 text-sm text-white/70"
                                         >
                                             Love my work and want to hire me? <Link href="/contact" className="text-blue-600 font-semibold"> Let&apos;s talk </Link>
                                         </div>
