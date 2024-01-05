@@ -1,4 +1,5 @@
 import FramerMotionWrapper from "@/components/FramerMotionWrapper";
+import Link from "next/link";
 
 export default function About() {
     return (
@@ -30,6 +31,12 @@ export default function About() {
                         </p>
                     </div>
                 </div>
+                <Link
+                    href="/projects"
+                    className="mt-6 text-black font-semibold focus:outline-none inline-flex items-center justify-center rounded-md bg-white duration-200 focus-visible:outline-black focus-visible:ring-black  hover:bg-white/70   lg:w-auto px-6 py-3 text-center w-full"
+                >
+                    Here&apos;s some of my work
+                </Link>
             </div>
         </section>
         </div>

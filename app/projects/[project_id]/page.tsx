@@ -179,33 +179,44 @@ export default function ProjectDetails({params}: any) {
                                             blurDataURL={rgbDataURL(203, 213, 225)}
                                         />
                                     </figure>
-                                    <p className="text-lg text-white/45">
-                                        As we&apos;ve grown, we&apos;ve seen how Preline has helped companies such as
-                                        Spotify, Microsoft, Airbnb, Facebook, and Intercom bring their
-                                        designers closer together to create amazing things. We&apos;ve also learned
-                                        that when the culture of sharing is brought in earlier, the better
-                                        teams adapt and communicate with one another.
-                                    </p>
-                                    <p className="text-lg text-white/45">
-                                        That&apos;s why we are excited to share that we now have a{" "}
-                                        <a
-                                            className="text-blue-600 decoration-2 hover:underline font-medium"
-                                            href="#"
-                                        >
-                                            free version of Preline
-                                        </a>
-                                        , which will allow individual designers, startups and other small
-                                        teams a chance to create a culture of openness early on.
-                                    </p>
-                                    <blockquote className="text-center p-4 sm:px-7">
-                                        <p className="text-xl font-medium text-gray-800 md:text-2xl md:leading-normal xl:text-2xl xl:leading-normal dark:text-gray-200">
-                                            To say that switching to Preline has been life-changing is an
-                                            understatement. My business has tripled and I got my life back.
-                                        </p>
-                                        <p className="mt-5 text-white/45">
-                                            Nicole Grazioso
-                                        </p>
-                                    </blockquote>
+                                    {project.setup.map((step, index) => (
+                                        <div key={index} className="space-y-5 md:space-y-2">
+                                            <h2 className="text-2xl font-bold text-white">
+                                                {step.title}
+                                            </h2>
+                                            <p className="text-lg text-white/45">
+                                                {step.description}
+                                            </p>
+                                        </div>
+                                    )
+                                    )}
+                                    {/*<p className="text-lg text-white/45">*/}
+                                    {/*    As we&apos;ve grown, we&apos;ve seen how Preline has helped companies such as*/}
+                                    {/*    Spotify, Microsoft, Airbnb, Facebook, and Intercom bring their*/}
+                                    {/*    designers closer together to create amazing things. We&apos;ve also learned*/}
+                                    {/*    that when the culture of sharing is brought in earlier, the better*/}
+                                    {/*    teams adapt and communicate with one another.*/}
+                                    {/*</p>*/}
+                                    {/*<p className="text-lg text-white/45">*/}
+                                    {/*    That&apos;s why we are excited to share that we now have a{" "}*/}
+                                    {/*    <a*/}
+                                    {/*        className="text-blue-600 decoration-2 hover:underline font-medium"*/}
+                                    {/*        href="#"*/}
+                                    {/*    >*/}
+                                    {/*        free version of Preline*/}
+                                    {/*    </a>*/}
+                                    {/*    , which will allow individual designers, startups and other small*/}
+                                    {/*    teams a chance to create a culture of openness early on.*/}
+                                    {/*</p>*/}
+                                    {/*<blockquote className="text-center p-4 sm:px-7">*/}
+                                    {/*    <p className="text-xl font-medium text-gray-800 md:text-2xl md:leading-normal xl:text-2xl xl:leading-normal dark:text-gray-200">*/}
+                                    {/*        To say that switching to Preline has been life-changing is an*/}
+                                    {/*        understatement. My business has tripled and I got my life back.*/}
+                                    {/*    </p>*/}
+                                    {/*    <p className="mt-5 text-white/45">*/}
+                                    {/*        Nicole Grazioso*/}
+                                    {/*    </p>*/}
+                                    {/*</blockquote>*/}
 
 
                                 </div>
@@ -219,94 +230,12 @@ export default function ProjectDetails({params}: any) {
                                 <div className="flex items-center gap-x-1.5">
                                     {/* Button */}
                                     <div className="hs-tooltip inline-block">
-                                        <button
-                                            type="button"
+                                        <div
                                             className="hs-tooltip-toggle flex items-center gap-x-2 text-sm text-gray-500 hover:text-gray-800 dark:text-gray-400 dark:hover:text-gray-200 dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-gray-600"
                                         >
-                                            <svg
-                                                className="flex-shrink-0 w-4 h-4"
-                                                xmlns="http://www.w3.org/2000/svg"
-                                                width={24}
-                                                height={24}
-                                                viewBox="0 0 24 24"
-                                                fill="none"
-                                                stroke="currentColor"
-                                                strokeWidth={2}
-                                                strokeLinecap="round"
-                                                strokeLinejoin="round"
-                                            >
-                                                <path d="M19 14c1.49-1.46 3-3.21 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.76 0-3 .5-4.5 2-1.5-1.5-2.74-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.3 1.5 4.05 3 5.5l7 7Z" />
-                                            </svg>
-                                            875
-                                            <span
-                                                className="hs-tooltip-content hs-tooltip-shown:opacity-100 hs-tooltip-shown:visible opacity-0 transition-opacity inline-block absolute invisible z-10 py-1 px-2 bg-gray-900 text-xs font-medium text-white rounded shadow-sm dark:bg-black"
-                                                role="tooltip"
-                                            >
-              Like
-            </span>
-                                        </button>
+                                            Love my work and want to hire me? <Link href="/contact" className="text-blue-600 font-semibold"> Let&apos;s talk </Link>
+                                        </div>
                                     </div>
-                                    {/* Button */}
-                                    <div className="block h-3 border-e border-gray-300 mx-3 dark:border-gray-600" />
-                                    {/* Button */}
-                                    <div className="hs-tooltip inline-block">
-                                        <button
-                                            type="button"
-                                            className="hs-tooltip-toggle flex items-center gap-x-2 text-sm text-gray-500 hover:text-gray-800 dark:text-gray-400 dark:hover:text-gray-200 dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-gray-600"
-                                        >
-                                            <svg
-                                                className="flex-shrink-0 w-4 h-4"
-                                                xmlns="http://www.w3.org/2000/svg"
-                                                width={24}
-                                                height={24}
-                                                viewBox="0 0 24 24"
-                                                fill="none"
-                                                stroke="currentColor"
-                                                strokeWidth={2}
-                                                strokeLinecap="round"
-                                                strokeLinejoin="round"
-                                            >
-                                                <path d="m3 21 1.9-5.7a8.5 8.5 0 1 1 3.8 3.8z" />
-                                            </svg>
-                                            16
-                                            <span
-                                                className="hs-tooltip-content hs-tooltip-shown:opacity-100 hs-tooltip-shown:visible opacity-0 transition-opacity inline-block absolute invisible z-10 py-1 px-2 bg-gray-900 text-xs font-medium text-white rounded shadow-sm dark:bg-black"
-                                                role="tooltip"
-                                            >
-              Comment
-            </span>
-                                        </button>
-                                    </div>
-                                    {/* Button */}
-                                    <div className="block h-3 border-e border-gray-300 mx-3 dark:border-gray-600" />
-                                    {/* Button */}
-                                    <div className="hs-dropdown relative inline-flex">
-                                        <button
-                                            type="button"
-                                            id="blog-article-share-dropdown"
-                                            className="hs-dropdown-toggle flex items-center gap-x-2 text-sm text-gray-500 hover:text-gray-800 dark:text-gray-400 dark:hover:text-gray-200 dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-gray-600"
-                                        >
-                                            <svg
-                                                className="flex-shrink-0 w-4 h-4"
-                                                xmlns="http://www.w3.org/2000/svg"
-                                                width={24}
-                                                height={24}
-                                                viewBox="0 0 24 24"
-                                                fill="none"
-                                                stroke="currentColor"
-                                                strokeWidth={2}
-                                                strokeLinecap="round"
-                                                strokeLinejoin="round"
-                                            >
-                                                <path d="M4 12v8a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-8" />
-                                                <polyline points="16 6 12 2 8 6" />
-                                                <line x1={12} x2={12} y1={2} y2={15} />
-                                            </svg>
-                                            Share
-                                        </button>
-
-                                    </div>
-                                    {/* Button */}
                                 </div>
                             </div>
                         </div>

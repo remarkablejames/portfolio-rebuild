@@ -73,11 +73,11 @@ export default function DropdownNav() {
                     </DropdownMenuItem>
                     <DropdownMenuSeparator />
                     <DropdownMenuItem>
-                        <Link href="/blog" className="w-full">Blog</Link>
+                        <Link href="/contact" className="w-full">Contact</Link>
                     </DropdownMenuItem>
                     <DropdownMenuSeparator />
                     <DropdownMenuItem>
-                        <Link href="#" className="w-full">Download CV</Link>
+                        <a href={'/assets/James-Niyongira-Resume.pdf'} className="w-full">Download CV</a>
                     </DropdownMenuItem>
                 </DropdownMenuGroup>
             </DropdownMenuContent>
