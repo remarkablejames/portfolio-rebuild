@@ -1,8 +1,14 @@
+"use client"
 import Link from "next/link";
 import DropdownNav from "@/components/small-screen-nav";
 import {Button} from "@/components/ui/button";
+import {usePathname} from "next/navigation";
+// import my assets here from public folder
+//  import
 
 export default function Navbar() {
+    const pathname = usePathname()
+    console.log(pathname)
   return (
       <section className="bg-black border-b border-white/25 overflow-hidden sticky top-0 z-50">
           <div className="relative w-full mx-auto max-w-7xl">
@@ -23,19 +29,19 @@ export default function Navbar() {
                   <nav className="{'flex': open, 'hidden': !open} hidden lg:flex">
                       <Link
                           href="/"
-                          className="px-2 py-2 text-sm font-medium text-white hover:text-white/50 lg:px-6 md:px-3 lg:ml-auto"
+                          className={`px-2 py-2 text-sm font-medium ${pathname==='/'? 'text-[#50d236]': 'text-white'} hover:text-white/50 lg:px-6 md:px-3 lg:ml-auto`}
                       >
                           Home
                       </Link>
                       <Link
                           href="/about"
-                          className="px-2 py-2 text-sm font-medium text-white hover:text-white/50 lg:px-6 md:px-3"
+                          className={`px-2 py-2 text-sm font-medium ${pathname==='/about'? 'text-[#50d236]': 'text-white'} hover:text-white/50 lg:px-6 md:px-3 lg:ml-auto`}
                       >
                           About
                       </Link>
                       <a
                           href="/projects"
-                          className="px-2 py-2 text-sm font-medium text-white hover:text-white/50 lg:px-6 md:px-3"
+                          className={`px-2 py-2 text-sm font-medium ${pathname==='/projects'? 'text-[#50d236]': 'text-white'} hover:text-white/50 lg:px-6 md:px-3 lg:ml-auto`}
                       >
                           Projects
                       </a>
@@ -44,10 +50,10 @@ export default function Navbar() {
                               className="block px-4 py-2 mt-2 text-sm text-white hover:text-white/50 focus:outline-none focus:shadow-outline md:mt-0">
                               Blog
                           </button>
-                          <button
+                          <a href={'/assets/James-Niyongira-Resume.pdf'}
                               className="text-white text-sm py-2 focus:outline-none px-4 active:bg-fuchsia-50 active:text-#279f0e bg-white/10 focus-visible:outline-2 focus-visible:outline-fuchsia-50 focus-visible:outline-offset-2 group hover:bg-white/5 inline-flex items-center justify-center rounded-md">
                               Download CV
-                          </button>
+                          </a>
                       </div>
                   </nav>
               </div>

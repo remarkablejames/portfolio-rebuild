@@ -61,23 +61,23 @@ export default function DropdownNav() {
                 <DropdownMenuSeparator />
                 <DropdownMenuGroup>
                     <DropdownMenuItem>
-                        <Link href="/">Home</Link>
+                        <Link href="/" className="w-full">Home</Link>
                     </DropdownMenuItem>
                     <DropdownMenuSeparator />
                     <DropdownMenuItem>
-                        <Link href="/about">About</Link>
+                        <Link href="/about" className="w-full">About</Link>
                     </DropdownMenuItem>
                     <DropdownMenuSeparator />
                     <DropdownMenuItem>
-                        <Link href="/projects">Projects</Link>
+                        <Link href="/projects" className="w-full">Projects</Link>
                     </DropdownMenuItem>
                     <DropdownMenuSeparator />
                     <DropdownMenuItem>
-                        <Link href="/blog">Blog</Link>
+                        <Link href="/blog" className="w-full">Blog</Link>
                     </DropdownMenuItem>
                     <DropdownMenuSeparator />
                     <DropdownMenuItem>
-                        <Link href="#">Download CV</Link>
+                        <Link href="#" className="w-full">Download CV</Link>
                     </DropdownMenuItem>
                 </DropdownMenuGroup>
             </DropdownMenuContent>

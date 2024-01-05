@@ -135,18 +135,23 @@ export default function ProjectDetails({params}: any) {
                             <h2 className="mt-12 font-semibold">Tech stack:</h2>
                             {/* List Group */}
                             <ul className="mt-2 flex flex-col">
-                                <li className="inline-flex items-center gap-x-2 py-3 px-4 text-sm border border-white/25  text-white/45 -mt-px first:rounded-t-md first:mt-0 last:rounded-b-md dark:border-white/25">
-                                    <div className="flex items-center justify-between w-full">
-                                        <span className="font-semibold">Framework</span>
-                                        <span>Nextjs</span>
-                                    </div>
-                                </li>
-                                <li className="inline-flex items-center gap-x-2 py-3 px-4 text-sm border border-white/25  text-white/45 -mt-px first:rounded-t-lg first:mt-0 last:rounded-b-lg dark:border-white/25">
-                                    <div className="flex items-center justify-between w-full ">
-                                        <span className="font-semibold">Database</span>
-                                        <span>Postgres</span>
-                                    </div>
-                                </li>
+                                {/*<li className="inline-flex items-center gap-x-2 py-3 px-4 text-sm border border-white/25  text-white/45 -mt-px first:rounded-t-md first:mt-0 last:rounded-b-md dark:border-white/25">*/}
+                                {/*    <div className="flex items-center justify-between w-full">*/}
+                                {/*        <span className="font-semibold">Framework</span>*/}
+                                {/*        <span>Nextjs</span>*/}
+                                {/*    </div>*/}
+                                {/*</li>*/}
+                                {
+                                    project.stack.map((tech, index) => (
+                                        <li key={index} className="inline-flex items-center gap-x-2 py-3 px-4 text-sm border border-white/25  text-white/45 -mt-px first:rounded-t-md first:mt-0 last:rounded-b-md dark:border-white/25">
+                                            <div className="flex items-center justify-between w-full">
+                                                <span className="font-semibold">{Object.keys(tech)[0]}</span>
+                                                <span>{Object.values(tech)[0]}</span>
+                                            </div>
+                                        </li>
+                                    ))
+                                }
+
                             </ul>
                             {/* End List Group */}
                         </>

@@ -17,7 +17,7 @@ export default function Home() {
                                       {/*  <span className="ml-2">I'm James Niyongira</span>*/}
                                       {/*</span>*/}
                                       {/*                      </div>*/}
-                                      <p className="mt-8 text-2xl font-bold tracking-tighter lg:text-6xl text-white">
+                                      <p className="mt-8 text-3xl font-bold tracking-tighter lg:text-6xl text-white">
                                           Black belt ninja in the art of software development
                                       </p>
                                       <p className="max-w-xl mt-4 text-lg tracking-tight lg:text-xl text-white/45">
@@ -43,11 +43,11 @@ export default function Home() {
                                   </div>
                               </div>
                           </div>
-                          <div className="block w-full p-2 mt-12 bg-white/25 lg:mt-0 rounded-3xl">
+                          <div className="hidden lg:block w-full p-2 mt-12 bg-white/25 lg:mt-0 rounded-3xl">
                               <img
                                   alt="hero"
                                   className="object-cover object-center w-full h-full mx-auto lg:ml-auto rounded-2xl"
-                                  src="https://images.unsplash.com/photo-1570129477492-45c003edd2be?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80"
+                                  src="https://avatars.githubusercontent.com/u/42360352?v=4"
                               />
                           </div>
                       </div>
