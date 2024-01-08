@@ -47,7 +47,7 @@ export default function Home() {
                               <img
                                   alt="hero"
                                   className="object-cover object-center w-full h-full mx-auto lg:ml-auto rounded-2xl"
-                                  src="https://avatars.githubusercontent.com/u/42360352?v=4"
+                                  src="https://res.cloudinary.com/james-me/image/upload/f_auto,q_auto/v1/Portfolio-media/to3tenbsq2dmchmltaau"
                               />
                           </div>
                       </div>
