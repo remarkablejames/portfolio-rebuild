@@ -10,10 +10,10 @@ export default function Navbar() {
     const pathname = usePathname()
     console.log(pathname)
   return (
-      <section className="bg-black border-b border-white/25 overflow-hidden sticky top-0 z-50">
+      <section className="bg-black border-b-[0.1px] border-white/25 overflow-hidden sticky top-0 z-50">
           <div className="relative w-full mx-auto max-w-7xl">
               <div
-                  className="relative flex flex-col w-full p-5 mx-auto lg:px-16 md:flex-row md:items-center md:justify-between md:px-6"
+                  className="relative flex flex-col w-full p-5 mx-auto lg:px-0 md:flex-row md:items-center md:justify-between md:px-6"
               >
                   <div className="flex flex-row items-center justify-between text-sm text-white lg:justify-start">
                       <a href="/">
@@ -22,7 +22,7 @@ export default function Navbar() {
                           </div>
                       </a>
                       <div
-                          className="inline-flex items-center justify-center p-2 text-white focus:outline-none focus:text-black hover:text-black md:hidden">
+                          className="inline-flex items-center justify-center  text-white focus:outline-none focus:text-black hover:text-black md:hidden">
                           <DropdownNav/>
                       </div>
                   </div>

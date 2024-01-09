@@ -22,8 +22,7 @@ export default function Home() {
                                       </p>
                                       <p className="max-w-xl mt-4 text-lg tracking-tight lg:text-xl text-white/45">
                                           I&apos;m James Niyongira, a full stack software developer and a student at
-                                          Algonquin College in Ottawa, Canada. I&apos;m skilled and passionate about building
-                                          software products that solves real world problems.
+                                          Algonquin College Ottawa. I build web applications that marry functionality and aesthetics.
                                       </p>
                                   </div>
                                   <div

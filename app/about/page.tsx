@@ -6,7 +6,7 @@ export default function About() {
         <FramerMotionWrapper>
         <div className="max-w-7xl 2xl:max-w-7xl mx-auto  py-4 ">
         <section className="relative flex items-center justify-center overflow-hidden">
-            <div className="relative items-center w-full px-5 py-12 mx-auto max-w-7xl lg:px-16 lg:py-32 md:px-12">
+            <div className="relative items-center w-full px-5 py-12 mx-auto max-w-7xl lg:px-8 lg:py-14 md:px-12">
                 <div>
                     <div className="w-full mx-auto">
                         <p className="mt-2 text-4xl font-extrabold tracking-tight text-white md:text-6xl">
@@ -18,20 +18,20 @@ export default function About() {
                         </p>
                         <p className="max-w-2xl mt-4 text-lg text-white/45">
                             I am that guy who has a hint on every tech stack but is a master of TypeScript, Python and
-                            their web frameworks. I am a big fan of the open-source community, and I try to give back as
-                            much as I can through my GitHub contributions.
+                            their web frameworks. I have a diverse set of skills, ranging from design, scripting, to backend development.
+                            I am highly flexible and can pick up new skills quickly in any language or framework. Currently, I am Learning Rust and Go.
                         </p>
 
-                        <p className="max-w-2xl mt-4 text-lg text-white/45">
-                            A web wizard who knows how to make things work, and make them work well.
-                            I build UIs that marry the best of both beauty and functionality.
-                        </p>
+                        {/*<p className="max-w-2xl mt-4 text-lg text-white/45">*/}
+                        {/*    A web wizard who knows how to make things work, and make them work well.*/}
+                        {/*    I build UIs that marry the best of both beauty and functionality.*/}
+                        {/*</p>*/}
 
                         <p className="max-w-2xl mt-4 text-lg text-white/45">
-                            I am more of a self-taught developer, I started coding before going to college.
+                            I am more of a self-taught developer because I started coding before going to college.
                             I like to work on the backend of the web, building
                             APIs and Microservices but my front-end skills in React.js are sharper than Ninjatō . I have
-                            built complex backend systems using Java, and C# throughout my formal education at Algonquin
+                            built many small scale apps  using various tech stack throughout my formal education at Algonquin
                             College, where I am currently pursuing a college diploma in Web Development and Internet
                             Applications.
                         </p>

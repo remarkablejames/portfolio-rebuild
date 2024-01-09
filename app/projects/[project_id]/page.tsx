@@ -9,7 +9,7 @@ export default function ProjectDetails({params}: any) {
     console.log(project)
     return (
         <FramerMotionWrapper>
-        <div className="flex w-full">
+        <div className="flex w-full min-h-screen">
             <div className="w-full flex-col-reverse lg:flex lg:flex-row justify-around gap-4 px- lg:px-24">
                 <div className="w-full lg:w-1/3  p-4">
                     <div className="sticky top-32">
