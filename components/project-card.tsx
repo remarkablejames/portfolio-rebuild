@@ -26,7 +26,7 @@ export default function ProjectCard(props: propTypes) {
                 width={2000}
                 height={300}
                 alt="course cover image"
-                className="h-52 rounded-t-md object-cover brightness-50 saturate-150 contrast-100"
+                className="h-52 rounded-t-md object-cover brightness-90 saturate-150 contrast-100"
                 placeholder={"blur"}
                 blurDataURL={rgbDataURL(203, 213, 225)}
             />
