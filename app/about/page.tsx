@@ -221,7 +221,7 @@ export default function About() {
                                     <h2 className="text-2xl font-bold tracking-tight text-white/60">
                                         About
                                     </h2>
-                                    <p className="mt-4 text-md text-white/45">
+                                    <p className="mt-4 text-md text-white/45 font-medium">
                                         Hello, I&apos;m James Niyongira, a passionate web developer dedicated
                                         to bringing digital visions to life. With a deep love for coding
                                         and a keen eye for design, I specialize in creating immersive web
@@ -236,8 +236,8 @@ export default function About() {
                                     <div className="flex flex-col gap-8">
                                         <div>
                                             <p className="mt-4 text-lg font-medium text-blue-500">
-                                                Algonquin College Innovation Hub - {" "}
-                                                <span className="text-white/45">Web Developer Intern</span>
+                                                Web Developer Intern - {" "}
+                                                <span className="text-white/45">Algonquin College Innovation Hub</span>
                                                 <span className="block text-xs text-white/45">
                     September 2023 - December 2023
                   </span>
@@ -247,26 +247,35 @@ export default function About() {
                                                 a web application that allows students to learn supplemental
                                                 material for their courses online. I was responsible for the front-end
                                                 development of the application using TypeScript (Next.js).
-                                                I also worked on the back-end using Python (Django) to build the REST API.
-                                                Results speak for themselves, check out the app <Link href={"https://brainwave-kohl.vercel.app/demo"} className="text-blue-500"> here.</Link>
+                                                I also worked on the back-end using Python (Django) to build the REST
+                                                API.
+                                                Results speak for themselves, check out the app <Link
+                                                href={"https://brainwave-kohl.vercel.app/demo"}
+                                                className="text-blue-500"> here.</Link>
 
                                             </p>
                                         </div>
+
                                         <div>
-                                            <p className="mt-4 text-lg font-medium text-blue-500">
-                                                Various Projects - {" "}
-                                                <span className="text-white/45">
-                    Front-End Developer Intern
-                  </span>
+                                            <h2 className="text-2xl font-bold tracking-tight text-white/60">
+                                                Self-initiated projects
+                                            </h2>
+                                            <p className=" mt-4 text-lg font-medium text-blue-500">
+                                                Various Projects  {" "}
+
                                                 <span className="block text-xs text-white/45">
-                    June 2018 - December 2018
+                    Sept. 2022 - Present
                   </span>
                                             </p>
                                             <p className="mt-4 text-md font-medium text-white/45">
-                                                I worked on various self-initiated projects as a front-end and back-end developer.
-                                                Through this experiential learning, I gained a deeper understanding of the web development process and
+                                                I worked on various self-initiated projects as a front-end and back-end
+                                                developer.
+                                                Through this experiential learning, I gained a deeper understanding of
+                                                the web development process and
                                                 the importance writing clean, maintainable code.
-                                                All my projects are available on this website,<Link href={"/projects"} className="text-blue-500">  check them out.</Link>
+                                                All my projects are available on this website,<Link href={"/projects"}
+                                                                                                    className="text-blue-500"> check
+                                                them out.</Link>
                                             </p>
                                         </div>
                                     </div>
