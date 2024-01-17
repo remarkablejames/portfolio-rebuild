@@ -4,7 +4,7 @@ export const projects = [
         title: "Brainwave Online School",
         description: "This is a web application that allows students to learn anything online interactively.",
         image: "https://res.cloudinary.com/james-me/image/upload/f_auto,q_auto/v1/Portfolio-media/riynaxj7lbgelizpqbeo",
-        link: "https://brainwave-kohl.vercel.app/",
+        link: "https://brainwave-kohl.vercel.app/demo",
         stack: [{ Framework: "Next.js & Django" }, { Language: "TypeScript & Python" }, { CSS: "Tailwind CSS" },{ "Use case": "Starter" }],
         // These are the steps to setup the project locally. the title for command step must always be commands
         setup: [{ title: "How it's built and what it does",
