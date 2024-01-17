@@ -246,7 +246,9 @@ export default function About() {
                                                 At the Innovation Hub, I worked on a team of developers to build
                                                 a web application that allows students to learn supplemental
                                                 material for their courses online. I was responsible for the front-end
-                                                development of the application using Next.js and TypeScript.
+                                                development of the application using TypeScript (Next.js).
+                                                I also worked on the back-end using Python (Django) to build the REST API.
+                                                Results speak for themselves, check out the app <Link href={"https://brainwave-kohl.vercel.app/demo"} className="text-blue-500"> here.</Link>
 
                                             </p>
                                         </div>
