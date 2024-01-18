@@ -48,7 +48,7 @@ export const projects = [
         title: "Complex Markdown Processor",
         description: "This is a pure Node.js application that processes markdown files and generates a static HTML website.",
         image: "https://res.cloudinary.com/james-me/image/upload/f_auto,q_auto/v1/Portfolio-media/ymg5ekybzwcjjrykcrfw",
-        // link: "https://movies-app-james-one-green.vercel.app/",
+        link: "none",
         stack: [ { Language: "TypeScript" },{ "Use case": "Document conversion" }],
         setup: [{ title: "Why build this thing?",description:"This app is part of bigger project that I was working on that involved converting markdown files into html for better styled rendering.  I decide to detach this mini application and make it open source so that everyone who wants the same solution" +
                 "can have it prebuilt without re-inventing the wheel. I use many open source tools so I thought giving back something however small can be significant.  " },

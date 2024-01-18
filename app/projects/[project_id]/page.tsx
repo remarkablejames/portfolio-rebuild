@@ -116,7 +116,7 @@ export default function ProjectDetails({params}: any) {
                                 ) : null
                             }
                             {
-                                project.link ? (
+                                project.link!=="none"? (
                                     <a
                                         href={project.link}
                                         type="button"
