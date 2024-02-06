@@ -8,7 +8,6 @@ import {usePathname} from "next/navigation";
 
 export default function Navbar() {
     const pathname = usePathname()
-    console.log(pathname)
   return (
       <section className="bg-black border-b-[0.1px] border-white/25 overflow-hidden sticky top-0 z-50">
           <div className="relative w-full mx-auto max-w-7xl">

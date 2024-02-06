@@ -6,7 +6,6 @@ import FramerMotionWrapper from "@/components/FramerMotionWrapper";
 
 export default function ProjectDetails({params}: any) {
     const project = projects.find((project) => project.id === Number(params.project_id)) || projects[0];
-    console.log(project)
     return (
         <FramerMotionWrapper>
         <div className="flex w-full min-h-screen">
