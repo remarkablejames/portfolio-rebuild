@@ -21,8 +21,8 @@ export default function Home() {
                                           Black belt ninja in the art of software development
                                       </p>
                                       <p className="max-w-xl mt-4 text-lg tracking-tight lg:text-xl text-white/45">
-                                          I&apos;m James Niyongira, a reliable full stack web applications developer and a student at
-                                          Algonquin College Ottawa. I build apps that marry functionality and aesthetics.
+                                          I&apos;m James Niyongira, a reliable full stack web applications developer proficient in C#, Typescript and Python.
+                                          I build apps that marry functionality and aesthetics.
                                       </p>
                                   </div>
                                   <div
