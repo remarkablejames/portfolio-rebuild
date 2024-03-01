@@ -85,7 +85,7 @@ export default function About() {
                         <div className="grid grid-cols-1 gap-4 md:grid-cols-2 lg:grid-cols-3 lg:gap-12">
                             <div className="flex flex-col gap-12">
                                 <div>
-                                    <h2 className="text-2xl font-bold tracking-tight text-white/60">
+                                    <h2 className="text-2xl font-bold tracking-tight text-white/80">
                                         Contact
                                     </h2>
                                     <dl className="mt-4 space-y-4 text-sm text-white/45">
@@ -113,7 +113,7 @@ export default function About() {
                                                 </svg>
                                             </dt>
                                             <dd>
-                                                <a className="hover:text-white/60" href="/">
+                                                <a className="hover:text-white/80" href="/">
                                                     remarkablejames.com
                                                 </a>
                                             </dd>
@@ -141,7 +141,7 @@ export default function About() {
                                             </dt>
                                             <dd>
                                                 <a
-                                                    className="hover:text-white/60"
+                                                    className="hover:text-white/80"
                                                     href="tel:+1 (555) 234-5678"
                                                 >
                                                     +1 (613) 878-8849
@@ -170,7 +170,7 @@ export default function About() {
                                             </dt>
                                             <dd>
                                                 <a
-                                                    className="hover:text-white/60"
+                                                    className="hover:text-white/80"
                                                     href="mailto:hello@example.com"
                                                 >
                                                     jamesme85.me@gmail.com
@@ -180,7 +180,7 @@ export default function About() {
                                     </dl>
                                 </div>
                                 <div>
-                                    <h2 className="text-2xl font-bold tracking-tight text-white/60">
+                                    <h2 className="text-2xl font-bold tracking-tight text-white/80">
                                         Education
                                     </h2>
                                     <dl className="mt-4 space-y-4 text-sm text-white/45">
@@ -194,7 +194,7 @@ export default function About() {
                                     </dl>
                                 </div>
                                 <div>
-                                    <h2 className="text-2xl font-bold tracking-tight text-white/60">
+                                    <h2 className="text-2xl font-bold tracking-tight text-white/80">
                                         Expertise
                                     </h2>
                                     <ul role="list" className="mt-4 space-y-2 text-sm text-white/45">
@@ -205,7 +205,7 @@ export default function About() {
                                     </ul>
                                 </div>
                                 <div>
-                                    <h2 className="text-2xl font-bold tracking-tight text-white/60">
+                                    <h2 className="text-2xl font-bold tracking-tight text-white/80">
                                         Skills
                                     </h2>
                                     <ul role="list" className="mt-4 space-y-2 text-sm text-white/45">
@@ -218,19 +218,18 @@ export default function About() {
                             </div>
                             <div className="flex flex-col gap-12 lg:col-span-2">
                                 <div>
-                                    <h2 className="text-2xl font-bold tracking-tight text-white/60">
-                                        About
+                                    <h2 className="text-2xl font-bold tracking-tight text-white/80">
+                                        Summary
                                     </h2>
                                     <p className="mt-4 text-md text-white/45 font-medium">
-                                        Hello, I&apos;m James Niyongira, a passionate web developer dedicated
-                                        to bringing digital visions to life. With a deep love for coding
-                                        and a keen eye for design, I specialize in creating immersive web
-                                        experiences that not only look stunning but also function
-                                        seamlessly.
+                                        Results-driven Web Applications Developer with a strong foundation in full-stack development,
+                                        specializing in Microsoft .NET technologies and JavaScript.
+                                        Currently pursuing a Diploma in Web Development & Internet Applications at Algonquin College.
+                                        Proven expertise in designing and implementing web applications using a variety of languages, frameworks, and tools.
                                     </p>
                                 </div>
                                 <div>
-                                    <h2 className="text-2xl font-bold tracking-tight text-white/60">
+                                    <h2 className="text-2xl font-bold tracking-tight text-white/80">
                                         Work experience
                                     </h2>
                                     <div className="flex flex-col gap-8">
@@ -257,7 +256,7 @@ export default function About() {
                                         </div>
 
                                         <div>
-                                            <h2 className="text-2xl font-bold tracking-tight text-white/60">
+                                            <h2 className="text-2xl font-bold tracking-tight text-white/80">
                                                 Self-initiated projects
                                             </h2>
                                             <p className=" mt-4 text-lg font-medium text-blue-500">
