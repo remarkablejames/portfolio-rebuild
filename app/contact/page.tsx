@@ -36,9 +36,6 @@ export default function Contact() {
                                     <h3 className="font-semibold text-white/70 ">
                                         Phone
                                     </h3>
-                                    <p className="mt-1 text-md text-white/45">
-                                        You can reach me on my phone number below during business hours.
-                                    </p>
                                     <a
                                         className="mt-2 inline-flex items-center gap-x-2 text-md font-medium text-white/45"
                                         href="#"
@@ -105,9 +102,6 @@ export default function Contact() {
                                     <h3 className="font-semibold text-white/70 ">
                                         Email
                                     </h3>
-                                    <p className="mt-1 text-md text-white/45">
-                                        Deliver good news to my inbox of the email below.
-                                    </p>
                                     <a
                                         className="mt-2 inline-flex items-center gap-x-2 text-md font-medium text-blue-500 hover:text-blue-800 "
                                         href="mailto:jamesme85.me@gmail.com"
