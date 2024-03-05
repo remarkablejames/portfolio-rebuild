@@ -29,13 +29,14 @@ export default function Home() {
                                       className="flex  justify-start  gap-3  mt-10 sm:flex-row">
                                       <Link
                                           href="/about"
-                                          className="text-black font-semibold focus:outline-none inline-flex items-center justify-center rounded-md bg-white duration-200 focus-visible:outline-black focus-visible:ring-black  hover:bg-white/70   lg:w-auto px-6 py-3 text-center w-full"
+                                          className="text-white font-semibold focus:outline-none inline-flex items-center justify-center rounded-md bg-black duration-200 focus-visible:outline-black focus-visible:ring-black hover:bg-white/25 border border-white/25 hover:text-white lg:w-auto px-6 py-3 text-center w-full"
                                       >
                                           More about me
                                       </Link>
                                       <Link
                                           href="/projects"
-                                          className="text-white font-semibold focus:outline-none inline-flex items-center justify-center rounded-md bg-black duration-200 focus-visible:outline-black focus-visible:ring-black hover:bg-white/25 border border-white/25 hover:text-white lg:w-auto px-6 py-3 text-center w-full"
+
+                                          className="text-black font-semibold focus:outline-none inline-flex items-center justify-center rounded-md bg-white duration-200 focus-visible:outline-black focus-visible:ring-black  hover:bg-white/70   lg:w-auto px-6 py-3 text-center w-full"
                                       >
                                           View my work
                                       </Link>
