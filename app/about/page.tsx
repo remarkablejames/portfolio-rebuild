@@ -1,5 +1,6 @@
 import FramerMotionWrapper from "@/components/FramerMotionWrapper";
 import Link from "next/link";
+import {projects} from "@/lib/data";
 
 export default function About() {
     return (
@@ -48,37 +49,37 @@ export default function About() {
         {/*</div>*/}
             <>
                 <section>
-                    <div className="max-w-5xl px-8 py-24 pb-12 mx-auto 2xl:max-w-7xl md:px-lg:px-24 lg:pt-32">
-                        <div className="flex items-center">
-                            <div className="hidden md:block">
-                                <img
-                                    className="inline-block object-cover w-24 h-48 rounded-full lg:w-64 lg:h-96"
-                                    src="https://res.cloudinary.com/james-me/image/upload/f_auto,q_auto/v1/Portfolio-media/to3tenbsq2dmchmltaau"
-                                    alt=""
-                                />
-                            </div>
-                            <div className="ml-4 md:ml-8">
-                                <p className="text-4xl font-semibold tracking-tighter text-white md:text-6xl lg:text-7xl">
-                                    James Niyongira
-                                    <span className="block text-white/45">Web developer</span>
-                                </p>
-                                <div className="flex mt-12 space-x-6 text-xs text-white/45 uppercase">
-                                    <a href="https://twitter.com/remarkablejames" className="duration-200 hover:text-gray-400">
-                                        {" "}
-                                        Twitter
-                                    </a>
-                                    <a href="https://www.linkedin.com/in/james-niyongira-551082156/" className="duration-200 hover:text-gray-400">
-                                        {" "}
-                                        Linkedin
-                                    </a>
-                                    <a href="https://github.com/remarkablejames" className="duration-200 hover:text-gray-400">
-                                        {" "}
-                                        GitHub
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+                    {/*<div className="max-w-5xl px-8 py-24 pb-12 mx-auto 2xl:max-w-7xl md:px-lg:px-24 lg:pt-32">*/}
+                    {/*    <div className="flex items-center">*/}
+                    {/*        <div className="hidden md:block">*/}
+                    {/*            <img*/}
+                    {/*                className="inline-block object-cover w-24 h-48 rounded-full lg:w-64 lg:h-96"*/}
+                    {/*                src="https://res.cloudinary.com/james-me/image/upload/f_auto,q_auto/v1/Portfolio-media/to3tenbsq2dmchmltaau"*/}
+                    {/*                alt=""*/}
+                    {/*            />*/}
+                    {/*        </div>*/}
+                    {/*        <div className="ml-4 md:ml-8">*/}
+                    {/*            <p className="text-4xl font-semibold tracking-tighter text-white md:text-6xl lg:text-7xl">*/}
+                    {/*                James Niyongira*/}
+                    {/*                <span className="block text-white/45">Web developer</span>*/}
+                    {/*            </p>*/}
+                    {/*            <div className="flex mt-12 space-x-6 text-xs text-white/45 uppercase">*/}
+                    {/*                <a href="https://twitter.com/remarkablejames" className="duration-200 hover:text-gray-400">*/}
+                    {/*                    {" "}*/}
+                    {/*                    Twitter*/}
+                    {/*                </a>*/}
+                    {/*                <a href="https://www.linkedin.com/in/james-niyongira-551082156/" className="duration-200 hover:text-gray-400">*/}
+                    {/*                    {" "}*/}
+                    {/*                    Linkedin*/}
+                    {/*                </a>*/}
+                    {/*                <a href="https://github.com/remarkablejames" className="duration-200 hover:text-gray-400">*/}
+                    {/*                    {" "}*/}
+                    {/*                    GitHub*/}
+                    {/*                </a>*/}
+                    {/*            </div>*/}
+                    {/*        </div>*/}
+                    {/*    </div>*/}
+                    {/*</div>*/}
                 </section>
                 <section>
                     <div className="max-w-5xl px-8 py-12 mx-auto 2xl:max-w-7xl md:px-lg:px-24">
@@ -198,10 +199,9 @@ export default function About() {
                                         Expertise
                                     </h2>
                                     <ul role="list" className="mt-4 space-y-2 text-sm text-white/45">
+                                        <li>.NET (C#) </li>
                                         <li>JavaScript</li>
                                         <li>Python</li>
-                                        <li>C#</li>
-                                        <li>PHP</li>
                                     </ul>
                                 </div>
                                 <div>
@@ -222,10 +222,10 @@ export default function About() {
                                         Summary
                                     </h2>
                                     <p className="mt-4 text-md text-white/45 font-medium">
-                                        Results-driven Web Applications Developer with a strong foundation in full-stack development,
+                                        Results-driven Web Applications Developer with a strong skills in full-stack web applications development,
                                         specializing in Microsoft .NET technologies and JavaScript.
-                                        Currently pursuing a Diploma in Web Development & Internet Applications at Algonquin College.
-                                        Proven expertise in designing and implementing web applications using a variety of languages, frameworks, and tools.
+                                        I am currently pursuing a Diploma in Web Development & Internet Applications at Algonquin College.
+                                        I build amazing apps. Check some of them out <Link href={"/projects"} className="text-blue-500">here</Link>.
                                     </p>
                                 </div>
                                 <div>
@@ -242,15 +242,15 @@ export default function About() {
                   </span>
                                             </p>
                                             <p className="mt-4 text-md font-medium text-white/45">
-                                                At the Innovation Hub, I worked on a team of developers to build
+                                                At the Innovation Hub, I worked with a team of other developers to build
                                                 a web application that allows students to learn supplemental
                                                 material for their courses online. I was responsible for the front-end
                                                 development of the application using TypeScript (Next.js).
                                                 I also worked on the back-end using Python (Django) to build the REST
                                                 API.
                                                 Results speak for themselves, check out the app <Link
-                                                href={"https://brainwave-kohl.vercel.app/demo"}
-                                                className="text-blue-500"> here.</Link>
+                                                href={projects[0].link}
+                                                className="text-blue-500" > here.</Link>
 
                                             </p>
                                         </div>
@@ -267,11 +267,11 @@ export default function About() {
                   </span>
                                             </p>
                                             <p className="mt-4 text-md font-medium text-white/45">
-                                                I worked on various self-initiated projects as a front-end and back-end
+                                                I worked on various self-initiated projects as a fullstack web
                                                 developer.
                                                 Through this experiential learning, I gained a deeper understanding of
-                                                the web development process and
-                                                the importance writing clean, maintainable code.
+                                                the web development process, SDLC, Design Patterns and
+                                                various system architectural techniques for writing clean, maintainable code.
                                                 All my projects are available on this website,<Link href={"/projects"}
                                                                                                     className="text-blue-500"> check
                                                 them out.</Link>
