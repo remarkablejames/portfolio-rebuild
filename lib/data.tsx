@@ -45,17 +45,17 @@ export const projects = [
     },
     {
         id: 4,
-        title: "Complex Markdown Processor",
+        title: "Advanced Markdown Processor",
         description: "This is a pure Node.js application that processes markdown files and generates a static HTML website.",
-        image: "https://res.cloudinary.com/james-me/image/upload/f_auto,q_auto/v1/Portfolio-media/ymg5ekybzwcjjrykcrfw",
+        image: "https://res.cloudinary.com/james-me/image/upload/f_auto,q_auto/v1/Portfolio-media/t1peah1tjqyjxlyguirs",
         link: "none",
         stack: [ { Language: "TypeScript" },{ "Use case": "Document conversion" }],
         setup: [{ title: "Why build this thing?",description:"This app is part of bigger project that I was working on that involved converting markdown files into html for better styled rendering.  I decide to detach this mini application and make it open source so that everyone who wants the same solution" +
                 "can have it prebuilt without re-inventing the wheel. I use many open source tools so I thought giving back something however small can be significant.  " },
-            { title: "How it works",description:"You feed in the markdown file, run the app and it spits out nicely formatted HTML. It's that simple. There are other tools that do this but what's special about this is the ability to extend the capabilities of markdown. "
+            { title: "How it works",description:"You feed in the markdown text and you get HTML back on the fly. you can copy the processed HTML by using the black copy button. It's that simple. There are other tools that do this but what's special about this is the ability to extend the capabilities of markdown. "
                 + "It can render, all basic md elements, images, videos, code blocks, tables, and even math equations (Latex). It also supports custom elements that you can define yourself. "
             }],
-        github: "https://github.com/remarkablejames/complexMDX-processor",
+        github: "https://github.com/remarkablejames/markdown-processor.git",
         tag:"Typescript"
 
     },
