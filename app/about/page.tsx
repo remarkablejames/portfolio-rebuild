@@ -5,81 +5,35 @@ import {projects} from "@/lib/data";
 export default function About() {
     return (
         <FramerMotionWrapper>
-        {/*<div className="max-w-7xl 2xl:max-w-7xl mx-auto  py-4 ">*/}
-        {/*<section className="relative flex items-center justify-center overflow-hidden">*/}
-        {/*    <div className="relative items-center w-full px-5 py-12 mx-auto max-w-7xl lg:px-8 lg:py-14 md:px-12">*/}
-        {/*        <div>*/}
-        {/*            <div className="w-full mx-auto">*/}
-        {/*                <p className="mt-2 text-4xl font-extrabold tracking-tight text-white md:text-6xl">*/}
-        {/*                    A little bit about me*/}
-        {/*                    &amp;*/}
-        {/*                    <span className="md:block">*/}
-        {/*                    {" "}why I am <span className="text-[#50d236]"> remarkable</span>.*/}
-        {/*                    </span>*/}
-        {/*                </p>*/}
-        {/*                <p className="max-w-2xl mt-4 text-lg text-white/45">*/}
-        {/*                    I am that guy who has a hint on every tech stack but is a master of TypeScript, Python and*/}
-        {/*                    their web frameworks. I have a diverse set of skills, ranging from design, scripting, to backend development.*/}
-        {/*                    I am highly flexible and can pick up new skills quickly in any language or framework. Currently, I am Learning Rust and Go.*/}
-        {/*                </p>*/}
-
-        {/*                /!*<p className="max-w-2xl mt-4 text-lg text-white/45">*!/*/}
-        {/*                /!*    A web wizard who knows how to make things work, and make them work well.*!/*/}
-        {/*                /!*    I build UIs that marry the best of both beauty and functionality.*!/*/}
-        {/*                /!*</p>*!/*/}
-
-        {/*                <p className="max-w-2xl mt-4 text-lg text-white/45">*/}
-        {/*                    I am more of a self-taught developer because I started coding before going to college.*/}
-        {/*                    I like to work on the backend of the web, building*/}
-        {/*                    APIs and Microservices but my front-end skills in React.js are sharper than Ninjatō . I have*/}
-        {/*                    built many small scale apps  using various tech stack throughout my formal education at Algonquin*/}
-        {/*                    College, where I am currently pursuing a college diploma in Web Development and Internet*/}
-        {/*                    Applications.*/}
-        {/*                </p>*/}
-        {/*            </div>*/}
-        {/*        </div>*/}
-        {/*        <Link*/}
-        {/*            href="/projects"*/}
-        {/*            className="mt-6 text-black font-semibold focus:outline-none inline-flex items-center justify-center rounded-md bg-white duration-200 focus-visible:outline-black focus-visible:ring-black  hover:bg-white/70   lg:w-auto px-6 py-3 text-center w-full"*/}
-        {/*        >*/}
-        {/*            Here&apos;s some of my work*/}
-        {/*        </Link>*/}
-        {/*    </div>*/}
-        {/*</section>*/}
-        {/*</div>*/}
             <>
                 <section>
-                    {/*<div className="max-w-5xl px-8 py-24 pb-12 mx-auto 2xl:max-w-7xl md:px-lg:px-24 lg:pt-32">*/}
-                    {/*    <div className="flex items-center">*/}
-                    {/*        <div className="hidden md:block">*/}
-                    {/*            <img*/}
-                    {/*                className="inline-block object-cover w-24 h-48 rounded-full lg:w-64 lg:h-96"*/}
-                    {/*                src="https://res.cloudinary.com/james-me/image/upload/f_auto,q_auto/v1/Portfolio-media/to3tenbsq2dmchmltaau"*/}
-                    {/*                alt=""*/}
-                    {/*            />*/}
-                    {/*        </div>*/}
-                    {/*        <div className="ml-4 md:ml-8">*/}
-                    {/*            <p className="text-4xl font-semibold tracking-tighter text-white md:text-6xl lg:text-7xl">*/}
-                    {/*                James Niyongira*/}
-                    {/*                <span className="block text-white/45">Web developer</span>*/}
-                    {/*            </p>*/}
-                    {/*            <div className="flex mt-12 space-x-6 text-xs text-white/45 uppercase">*/}
-                    {/*                <a href="https://twitter.com/remarkablejames" className="duration-200 hover:text-gray-400">*/}
-                    {/*                    {" "}*/}
-                    {/*                    Twitter*/}
-                    {/*                </a>*/}
-                    {/*                <a href="https://www.linkedin.com/in/james-niyongira-551082156/" className="duration-200 hover:text-gray-400">*/}
-                    {/*                    {" "}*/}
-                    {/*                    Linkedin*/}
-                    {/*                </a>*/}
-                    {/*                <a href="https://github.com/remarkablejames" className="duration-200 hover:text-gray-400">*/}
-                    {/*                    {" "}*/}
-                    {/*                    GitHub*/}
-                    {/*                </a>*/}
-                    {/*            </div>*/}
-                    {/*        </div>*/}
-                    {/*    </div>*/}
-                    {/*</div>*/}
+                    <div className="max-w-5xl px-8 py-24 pb-12 mx-auto 2xl:max-w-7xl md:px-lg:px-24 lg:pt-32">
+                        <div className="flex items-center">
+                            <div className="hidden md:block">
+                                <img
+                                    className="inline-block object-cover w-24 h-24 rounded-full lg:w-64 lg:h-72"
+                                    src="https://res.cloudinary.com/james-me/image/upload/f_auto,q_auto/v1/Portfolio-media/to3tenbsq2dmchmltaau"
+                                    alt=""
+                                />
+                            </div>
+                            <div className="ml-4 md:ml-8">
+                                <p className="text-4xl font-semibold tracking-tighter text-white md:text-6xl lg:text-7xl">
+                                    James Niyongira
+                                    <span className="block text-white/45 ">Web developer</span>
+                                </p>
+                                <div className="flex mt-12 space-x-6 text-xs text-white/45 uppercase">
+                                    <a href="https://www.linkedin.com/in/james-niyongira-551082156/" className="duration-200 hover:text-gray-400">
+                                        {" "}
+                                        Linkedin
+                                    </a>
+                                    <a href="https://github.com/remarkablejames" className="duration-200 hover:text-gray-400">
+                                        {" "}
+                                        GitHub
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </section>
                 <section>
                     <div className="max-w-5xl px-8 py-12 mx-auto 2xl:max-w-7xl md:px-lg:px-24">
@@ -188,9 +142,9 @@ export default function About() {
                                         <div className="flex flex-col gap-2">
                                             <dt className="flex flex-col">
                                                 <span className="block">Web Development and Internet Applications</span>
-                                                <span className="block">Algonquin College</span>
+                                                <span className="block italic">Algonquin College</span>
                                             </dt>
-                                            <dd className="font-medium text-blue-500">2022 - present</dd>
+                                            <dd className="font-medium text-blue-500">Sept. 2022 - Apr. 2024</dd>
                                         </div>
                                     </dl>
                                 </div>
@@ -223,8 +177,7 @@ export default function About() {
                                     </h2>
                                     <p className="mt-4 text-md text-white/45 font-medium">
                                         Results-driven Web Applications Developer with a strong skills in full-stack web applications development,
-                                        specializing in Microsoft .NET technologies and JavaScript.
-                                        I am currently pursuing a Diploma in Web Development & Internet Applications at Algonquin College.
+                                        specializing in Microsoft .NET technologies, JavaScript/TypeScript and Python.
                                         I build amazing apps. Check some of them out <Link href={"/projects"} className="text-blue-500">here</Link>.
                                     </p>
                                 </div>
@@ -233,6 +186,27 @@ export default function About() {
                                         Work experience
                                     </h2>
                                     <div className="flex flex-col gap-8">
+                                        <div>
+                                            <p className="mt-4 text-lg font-medium text-blue-500">
+                                                Web Developer (Volunteer) - {" "}
+                                                <span className="text-white/45">City of Ottawa</span>
+                                                <span className="block text-xs text-white/45">
+                    March 2024 - Present
+                  </span>
+                                            </p>
+                                            <p className="mt-4 text-md font-medium text-white/45">
+                                                I work on the Community Capacity Building (CCB) Training Web portal of the city of Ottawa and below are my achievements and responsibilities:
+
+                                                <ul className="list-disc list-inside">
+                                                    <li>Developed a web application that allows users to register for training courses online.</li>
+                                                    <li>Developed a REST API using ASP.NET Core  to handle user authentication and course registration.</li>
+                                                    <li>Developed a front-end application using TypeScript (React.js) to allow users to interact with the API.</li>
+                                                    <li>Worked with a team of developers to build a web application that allows users to learn supplemental material for their courses online.</li>
+                                                    <li>Worked on the back-end using ASP.NET Core to build the REST API.</li>
+                                                </ul>
+
+                                            </p>
+                                        </div>
                                         <div>
                                             <p className="mt-4 text-lg font-medium text-blue-500">
                                                 Web Developer Intern - {" "}
@@ -250,7 +224,7 @@ export default function About() {
                                                 API.
                                                 Results speak for themselves, check out the app <Link
                                                 href={projects[0].link}
-                                                className="text-blue-500" > here.</Link>
+                                                className="text-blue-500"> here.</Link>
 
                                             </p>
                                         </div>
@@ -260,7 +234,7 @@ export default function About() {
                                                 Self-initiated projects
                                             </h2>
                                             <p className=" mt-4 text-lg font-medium text-blue-500">
-                                                Various Projects  {" "}
+                                                Various Projects {" "}
 
                                                 <span className="block text-xs text-white/45">
                     Sept. 2022 - Present
@@ -271,7 +245,8 @@ export default function About() {
                                                 developer.
                                                 Through this experiential learning, I gained a deeper understanding of
                                                 the web development process, SDLC, Design Patterns and
-                                                various system architectural techniques for writing clean, maintainable code.
+                                                various system architectural techniques for writing clean, maintainable
+                                                code.
                                                 All my projects are available on this website,<Link href={"/projects"}
                                                                                                     className="text-blue-500"> check
                                                 them out.</Link>
