@@ -19,7 +19,7 @@ export default function About() {
                             <div className="ml-4 md:ml-8">
                                 <p className="text-4xl font-semibold tracking-tighter text-white md:text-6xl lg:text-7xl">
                                     James Niyongira
-                                    <span className="block text-white/45 ">Web developer</span>
+                                    <span className="block text-white/45 text-2xl md:text-3xl lg:text-5xl">Web Applications Developer</span>
                                 </p>
                                 <div className="flex mt-12 space-x-6 text-xs text-white/45 uppercase">
                                     <a href="https://www.linkedin.com/in/james-niyongira-551082156/" className="duration-200 hover:text-gray-400">
@@ -194,7 +194,7 @@ export default function About() {
                     March 2024 - Present
                   </span>
                                             </p>
-                                            <p className="mt-4 text-md font-medium text-white/45">
+                                            <div className="mt-4 text-md font-medium text-white/45">
                                                 I work on the Community Capacity Building (CCB) Training Web portal of the city of Ottawa and below are my achievements and responsibilities:
 
                                                 <ul className="list-disc list-inside">
@@ -205,7 +205,7 @@ export default function About() {
                                                     <li>Worked on the back-end using ASP.NET Core to build the REST API.</li>
                                                 </ul>
 
-                                            </p>
+                                            </div>
                                         </div>
                                         <div>
                                             <p className="mt-4 text-lg font-medium text-blue-500">
