@@ -1,10 +1,10 @@
 export const projects = [
     {
         id: 1,
-        title: "Brainwave School",
-        description: "This is an interactive online learning platform that delivers curriculum-based courses.",
-        image: "https://res.cloudinary.com/dhka6cqkn/image/upload/f_auto,q_auto/v1/Brainwave-images/pb23n7gzwm7cd0tcrotl",
-        link: "https://brainwave-client.vercel.app/demo",
+        title: "Brainwave School Client",
+        description: "An online learning platform that offer curriculum-based courses created by subject-matter experts, delivered in a multimodal format.",
+        image: "https://res.cloudinary.com/dhka6cqkn/image/upload/f_auto,q_auto/v1/Brainwave-images/pbhlifaj3bfj4viuq0bm",
+        link: "https://brainwave-client.vercel.app/",
         stack: [{ Framework: "Next.js & Django" }, { Language: "TypeScript & Python" }, { CSS: "Tailwind CSS" },{ "Use case": "Education" }],
         // These are the steps to setup the project locally. the title for command step must always be commands
         setup: [{ title: "About the project",
@@ -19,6 +19,24 @@ export const projects = [
     },
     {
         id: 2,
+        title: "Admin Portal for Brainwave School",
+        description: "Administartive portal for Brainwave School. A platform that allows admin to manage courses, users, and other resources.",
+        image: "https://res.cloudinary.com/dhka6cqkn/image/upload/f_auto,q_auto/v1/Brainwave-images/jytxh7hxwgvwit3ufpop",
+        link: "https://brainwave-admin.vercel.app/",
+        stack: [{ Framework: "Next.js & Django" }, { Language: "TypeScript & Python" }, { CSS: "Tailwind CSS" },{ "Use case": "Education" }],
+        // These are the steps to setup the project locally. the title for command step must always be commands
+        setup: [{ title: "About the project",
+            description:"Brainwave is an in production online learning platform that delivers curriculum-based courses taught in multi-mdal way of either texts, videos, interactive simulations and tons of exercises. It is built with Next.js and Django. The frontend is built with Next.js and Tailwind CSS. The backend is built with Django and Django Rest Framework. The database is PostgreSQL. The app is hosted on Vercel and AWS."
+        },
+            // { title: "Demo of the app",description:"You can check out a demo of the app by clicking the demo link below. in the left sidebar, you can see the list of courses available. You can enroll in a course by clicking the enroll button. You can also see the progress of the course you are enrolled in. Login credentials are email: james@brainwave.com, password: test123"},
+        ],
+        github: "somelink.github.io",
+        tag:"Typescript & Python",
+
+
+    },
+    {
+        id: 3,
         title: "Advanced Markdown Processor",
         description: "This is a pure Node.js application that processes markdown files and generates a static HTML website.",
         image: "https://res.cloudinary.com/james-me/image/upload/f_auto,q_auto/v1/Portfolio-media/t1peah1tjqyjxlyguirs",
@@ -34,7 +52,7 @@ export const projects = [
 
     },
     {
-        id: 3,
+        id: 4,
         title: "Clone of the Netflix UI",
         description: "This is a clone of the Netflix UI built with Next.js, TypeScript, MongoDB  and Tailwind CSS.",
         image: "https://res.cloudinary.com/james-me/image/upload/f_auto,q_auto/v1/Portfolio-media/uasxusrgcaij0ytbduyh",

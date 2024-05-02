@@ -30,7 +30,7 @@ export default function ProjectCard(props: propTypes) {
                 placeholder={"blur"}
                 blurDataURL={rgbDataURL(203, 213, 225)}
             />
-            <div className="p-4 md:p-6  rounded-b-md bg-white/5 ">
+            <div className="p-4 md:p-6  rounded-b-md bg-white/10 ">
           <span className="block mb-1 text-xs font-semibold uppercase text-blue-600 dark:text-blue-500">
             {props.tag}
           </span>

@@ -188,28 +188,31 @@ export default function About() {
                                     <div className="flex flex-col gap-8">
                                         <div>
                                             <p className="mt-4 text-lg font-medium text-blue-500">
-                                                Web Developer (Volunteer) - {" "}
-                                                <span className="text-white/45">City of Ottawa</span>
+                                                Web Developer - {" "}
+                                                <span className="text-white/45">Brainwave (<a
+                                                    href="https://brainwave-client.vercel.app"
+                                                    target={"_blank"}
+                                                    className="text-blue-500 text-xs">preview</a>)</span>
                                                 <span className="block text-xs text-white/45">
-                    March 2024 - Present
+                    July 2023 - Present
                   </span>
                                             </p>
                                             <div className="mt-4 text-md font-medium text-white/45">
-                                                I work on the Community Capacity Building (CCB) Training Web portal of the city of Ottawa and below are my achievements and responsibilities:
+                                                As a co-founder and developer of Brainwave, I with my team created an online learning platform using Next.js and Django. Utilizing AWS, Vercel, Docker, and Cloudflare, I optimized performance, reducing load times by 30% and enhancing security. Below are some of my key achievements:
 
-                                                <ul className="list-disc list-inside">
-                                                    <li>Developed a web application that allows users to register for training courses online.</li>
-                                                    <li>Developed a REST API using ASP.NET Core  to handle user authentication and course registration.</li>
-                                                    <li>Developed a front-end application using TypeScript (React.js) to allow users to interact with the API.</li>
-                                                    <li>Worked with a team of developers to build a web application that allows users to learn supplemental material for their courses online.</li>
-                                                    <li>Worked on the back-end using ASP.NET Core to build the REST API.</li>
+                                                <ul className="list-disc list-inside mt-4">
+                                                    <li>Developed Brainwave, an online learning platform using Next.js and Django, optimizing page load times by 30% through server-side rendering.</li>
+                                                    <li>Deployed on AWS and Vercel, utilizing Docker for seamless updates and Cloudflare for enhanced security, resulting in a 20% reduction in load times.</li>
+                                                    <li>Integrated user authentication and authorization features, ensuring secure access to sensitive data and designing an intuitive admin dashboard for efficient content management.</li>
+                                                    <li>Conducted rigorous testing and debugging, increasing platform stability by 15% and maintaining code quality through regular reviews and best practices implementation.</li>
+
                                                 </ul>
 
                                             </div>
                                         </div>
                                         <div>
                                             <p className="mt-4 text-lg font-medium text-blue-500">
-                                                Web Developer Intern - {" "}
+                                                Software Developer Intern - {" "}
                                                 <span className="text-white/45">Algonquin College Innovation Hub</span>
                                                 <span className="block text-xs text-white/45">
                     September 2023 - December 2023
