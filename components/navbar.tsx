@@ -9,7 +9,7 @@ import {usePathname} from "next/navigation";
 export default function Navbar() {
     const pathname = usePathname()
   return (
-      <section className="bg-black border-b-[0.1px] border-white/25 overflow-hidden sticky top-0 z-50">
+      <section className="bg-black  overflow-hidden sticky top-0 z-50">
           <div className="relative w-full mx-auto max-w-7xl">
               <div
                   className="relative flex flex-col w-full p-5 mx-auto lg:px-0 md:flex-row md:items-center md:justify-between md:px-6"
@@ -17,7 +17,7 @@ export default function Navbar() {
                   <div className="flex flex-row items-center justify-between text-sm text-white lg:justify-start">
                       <a href="/">
                           <div>
-                              <p className="text-xl font-bold text-[#50d236]">Remarkable James</p>
+                              <p className="text-xl font-bold text-[#50d236]">[remarkableJames]</p>
                           </div>
                       </a>
                       <div

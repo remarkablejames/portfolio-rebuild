@@ -12,7 +12,7 @@ export const projects = [
         },
             // { title: "Demo of the app",description:"You can check out a demo of the app by clicking the demo link below. in the left sidebar, you can see the list of courses available. You can enroll in a course by clicking the enroll button. You can also see the progress of the course you are enrolled in. Login credentials are email: james@brainwave.com, password: test123"},
         ],
-        github: "somelink.github.io",
+        github: "projects/1",
         tag:"Typescript & Python",
 
 
@@ -30,7 +30,7 @@ export const projects = [
         },
             // { title: "Demo of the app",description:"You can check out a demo of the app by clicking the demo link below. in the left sidebar, you can see the list of courses available. You can enroll in a course by clicking the enroll button. You can also see the progress of the course you are enrolled in. Login credentials are email: james@brainwave.com, password: test123"},
         ],
-        github: "somelink.github.io",
+        github: "projects/2",
         tag:"Typescript & Python",
 
 
