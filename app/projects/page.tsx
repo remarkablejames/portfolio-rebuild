@@ -10,8 +10,8 @@ export default function Projects() {
           <div className="max-w-[85rem] px-4 py-10 sm:px-6 lg:px-8 lg:py-14 mx-auto">
               <div className="mb-12">
                   <p className="mt-2 text-4xl font-extrabold tracking-tight text-white md:text-6xl">
-                      Things I have built &amp;
-                      <span className="md:block"> <span className="text-[#50d236]">deployed </span> on the cloud.</span>
+                      Few  <span className="text-[#50d236]">unique</span> apps I have built <br/> &amp;
+                          deployed on the cloud.
                   </p>
               </div>
               {/* Grid */}

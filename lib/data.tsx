@@ -1,7 +1,7 @@
 export const projects = [
     {
         id: 1,
-        title: "Brainwave School Client",
+        title: "Brainwave (Learning Platform)",
         description: "An online learning platform that offer curriculum-based courses created by subject-matter experts, delivered in a multimodal format.",
         image: "https://res.cloudinary.com/dhka6cqkn/image/upload/f_auto,q_auto/v1/Brainwave-images/pbhlifaj3bfj4viuq0bm",
         link: "https://brainwave-client.vercel.app/",
@@ -19,7 +19,7 @@ export const projects = [
     },
     {
         id: 2,
-        title: "Admin Portal for Brainwave School",
+        title: "Admin Portal for Brainwave",
         description: "Administartive portal for Brainwave School. A platform that allows admin to manage courses, users, and other resources.",
         image: "https://res.cloudinary.com/dhka6cqkn/image/upload/f_auto,q_auto/v1/Brainwave-images/jytxh7hxwgvwit3ufpop",
         link: "https://brainwave-admin.vercel.app/",
@@ -51,19 +51,19 @@ export const projects = [
         tag:"Typescript"
 
     },
-    {
-        id: 4,
-        title: "Clone of the Netflix UI",
-        description: "This is a clone of the Netflix UI built with Next.js, TypeScript, MongoDB  and Tailwind CSS.",
-        image: "https://res.cloudinary.com/james-me/image/upload/f_auto,q_auto/v1/Portfolio-media/uasxusrgcaij0ytbduyh",
-        link: "https://movies-app-james-one-green.vercel.app/",
-        stack: [{ Framework: "Next.js" }, { Language: "TypeScript" }, { CSS: "Tailwind CSS" },{ "Use case": "Starter" }],
-        setup: [{ title: "Why I cloned Netflix UI?",description:"Among the web apps that I love how they look and feel very modern, Netflix is on top tier. As a web developer it left me wondering how they made a beautiful web app like that, full of smooth animations." +
-                "I tried to replicate it so that I can learn how to design cool web UIs. " }],
-        github: "somelink.github.io",
-        tag:"Typescript"
-
-    },
+    // {
+    //     id: 4,
+    //     title: "Clone of the Netflix UI",
+    //     description: "This is a clone of the Netflix UI built with Next.js, TypeScript, MongoDB  and Tailwind CSS.",
+    //     image: "https://res.cloudinary.com/james-me/image/upload/f_auto,q_auto/v1/Portfolio-media/uasxusrgcaij0ytbduyh",
+    //     link: "https://movies-app-james-one-green.vercel.app/",
+    //     stack: [{ Framework: "Next.js" }, { Language: "TypeScript" }, { CSS: "Tailwind CSS" },{ "Use case": "Starter" }],
+    //     setup: [{ title: "Why I cloned Netflix UI?",description:"Among the web apps that I love how they look and feel very modern, Netflix is on top tier. As a web developer it left me wondering how they made a beautiful web app like that, full of smooth animations." +
+    //             "I tried to replicate it so that I can learn how to design cool web UIs. " }],
+    //     github: "somelink.github.io",
+    //     tag:"Typescript"
+    //
+    // },
     // {
     //     id: 4,
     //     title: "Reactive Notes",
