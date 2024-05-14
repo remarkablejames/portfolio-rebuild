@@ -6,8 +6,11 @@ import Navbar from "@/components/navbar";
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
-  title: 'James Niyongira - Portfolio',
-  description: 'James Niyongira is a web developer based in Ottawa, Canada. He is passionate about building web applications that marry function and beauty.',
+  title: 'James Niyongira | Software Developer',
+  description: 'Seasoned web applications developer, remarkable at shipping clean and maintainable code.',
+    icons: {
+        icon: './favicon.ico',
+    },
 }
 
 export default function RootLayout({

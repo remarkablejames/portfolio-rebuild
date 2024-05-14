@@ -18,11 +18,11 @@ export default function Home() {
                                       {/*</span>*/}
                                       {/*                      </div>*/}
                                       <p className="mt-8 text-3xl font-bold tracking-tighter lg:text-6xl text-white">
-                                          Black belt ninja in the art of software development
+                                        I&apos;m James, a reliable software developer
                                       </p>
                                       <p className="max-w-xl mt-4 text-lg tracking-tight lg:text-xl text-white/45">
-                                          I&apos;m James Niyongira, a reliable full stack web applications developer proficient in C#, Typescript and Python.
-                                          I build apps that marry functionality and aesthetics.
+                                          With a college diploma in web development and hands-on experience gained through internship
+                                          and tons of projects built, I ship clean and maintainable code.
                                       </p>
                                   </div>
                                   <div
