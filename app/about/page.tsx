@@ -185,9 +185,6 @@ export default function About() {
                         </span>
                       </p>
                       <div className="mt-4 text-md font-medium text-white/45">
-                        Co-founded a startup that provides educational platforms
-                        hosting online curriculum-based courses, delivered in a
-                        multimedia format.
                         <ul className="list-disc list-inside mt-4">
                           <li>
                             Co-founded and developed an online learning platform
