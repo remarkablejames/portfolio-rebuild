@@ -7,7 +7,8 @@ import { SimpleLayout } from "@/components/SimpleLayout";
 import logoVanilla from "@/images/logos/netflix.svg";
 import logoSomoLabs from "@/images/logos/logo-black.svg";
 import logoMarkdown from "@/images/logos/markdown.svg";
-import logoCaptainhook from "@/images/logos/fleeksvg.svg";
+import logoCaptainhook from "@/images/logos/react-2.svg";
+import logoFleek from "@/images/logos/fleeksvg.svg";
 import Link from "next/link";
 const projects = [
   {
@@ -37,7 +38,7 @@ const projects = [
       href: "https://github.com/remarkablejames/Natours",
       label: "Open on GitHub",
     },
-    logo: logoCaptainhook,
+    logo: logoFleek,
   },
   {
     name: "SomoLabs CMS",
