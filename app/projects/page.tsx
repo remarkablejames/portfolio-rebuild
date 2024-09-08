@@ -10,10 +10,11 @@ import logoMarkdown from "@/images/logos/markdown.svg";
 import logoCaptainhook from "@/images/logos/react-2.svg";
 import logoFleek from "@/images/logos/fleeksvg.svg";
 import Link from "next/link";
+import {TextGenerateEffect} from "@/components/ui/text-generate-effect";
 const projects = [
   {
     name: "SomoLabs",
-    description: "Online learning platform for curriculum-based courses",
+    description: "Online learning platform built with TypeScript, Python, and React Native",
     link: {
       href: "https://somolabs.com/",
       label: "somolabs.com",
@@ -70,6 +71,11 @@ const projects = [
   },
 ];
 
+
+const words = `
+I try to build projects that solve real-world problems and help me learn new technologies. I am currently working on project SomoLabs, a SaaS learning platform for structured, curriculum-aligned courses.  I built it's entire frontend single-handedly with TypeScript. It's backend is written in Python and mobile version is built with React Native.
+`;
+
 function LinkIcon(props: any) {
   return (
     <svg viewBox="0 0 24 24" aria-hidden="true" {...props}>
@@ -84,18 +90,27 @@ export default function Projects() {
   return (
     <FramerMotionWrapper>
       <section className={" p-4 my-4 md:my-12"}>
-        {/* <div className="max-w-[85rem] px-4 py-10 sm:px-6 lg:px-8 lg:py-14 mx-auto">
+         <div className="max-w-[85rem] px-4 py-10 sm:px-6 lg:px-8 lg:py-14 mx-auto">
           <div className="mb-12">
             <p className="mt-2 text-4xl font-extrabold tracking-tight text-white md:text-6xl">
               Few <span className="text-[#50d236]">unique</span> apps I have
-              built <br /> to prove my skills.
+              built.
             </p>
+            <div className={"mt-8"}>
+              <TextGenerateEffect words={words} className={"text-white"} />
+            </div>
+
           </div>
-        </div> */}
+        </div>
+        <div className={"max-w-[65rem]"}>
+
+          {/*<TextGenerateEffect words={words} className={"text-white"} />*/}
+
+        </div>
 
         <SimpleLayout
-          title="Projects"
-          intro="Few unique apps I have built to prove my skills."
+          title=""
+          intro=""
         >
           <ul
             role="list"

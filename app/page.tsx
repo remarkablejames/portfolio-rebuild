@@ -12,16 +12,11 @@ export default function Home() {
                           <div className="relative items-center gap-12 m-auto lg:inline-flex">
                               <div className="max-w-xl text-center lg:text-left">
                                   <div>
-                                      {/*                      <div>*/}
-                                      {/*<span className="inline-flex items-center text-3xl font-semibold tracking-tighter text-black">*/}
-                                      {/*  <span className="ml-2">I'm James Niyongira</span>*/}
-                                      {/*</span>*/}
-                                      {/*                      </div>*/}
                                       <p className="mt-8 text-3xl font-bold tracking-tighter lg:text-6xl text-white">
-                                        I&apos;m James, a reliable software developer
+                                        A reliable software developer
                                       </p>
                                       <p className="max-w-xl mt-4 text-lg tracking-tight lg:text-xl text-white/45">
-                                          With a college diploma in web development and hands-on experience gained through internship
+                                          With a college diploma in web development & Internet Application. I have hands-on experience gained through internship
                                           and tons of projects built, I ship clean and maintainable code.
                                       </p>
                                   </div>
