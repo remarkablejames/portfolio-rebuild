@@ -16,8 +16,8 @@ export default function Home() {
                                         A reliable software developer
                                       </p>
                                       <p className="max-w-xl mt-4 text-lg tracking-tight lg:text-xl text-white/45">
-                                          With a college diploma in web development & Internet Application. I have hands-on experience gained through internship
-                                          and tons of projects built, I ship clean and maintainable code.
+                                          With a college diploma in web development & Internet Application. I have hands-on experience gained through internships
+                                          and projects, I write TypeScript, Python, and C#.
                                       </p>
                                   </div>
                                   <div

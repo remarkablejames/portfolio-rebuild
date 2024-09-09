@@ -17,7 +17,7 @@ export default function Navbar() {
                   <div className="flex flex-row items-center justify-between text-sm text-white lg:justify-start">
                       <a href="/">
                           <div>
-                              <p className="text-xl font-bold text-[#50d236]">[remarkableJames]</p>
+                              <p className="text-xl font-bold text-[#50d236]">James Niyongira</p>
                           </div>
                       </a>
                       <div
