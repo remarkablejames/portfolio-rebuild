@@ -159,14 +159,7 @@ export default function About() {
                     Summary
                   </h2>
                   <p className="mt-4 text-md text-white/45 font-medium text-justify">
-                    Recent graduate with a Diploma in Web Development & Internet
-                    Applications, bringing a strong software development
-                    background and a passion for technology and continuous
-                    learning. Skilled in designing and developing sophisticated
-                    applications using modern technologies. Proven ability to
-                    diagnose and resolve software defects, resulting in improved
-                    system performance. Team player with excellent communication
-                    skills, eager to contribute to collaborative projects.
+                    Reliable software developer with a college diploma in Web Development & Internet Applications, Skilled in designing, developing, testing and deploying sophisticated web applications using modern technologies. I have hands-on experience building real world applications that I gained through work, internships, and personal projects I built. I’m a team player with excellent communication skills, eager to contribute to collaborative projects.
                   </p>
                 </div>
                 <div>
@@ -176,9 +169,9 @@ export default function About() {
                   <div className="flex flex-col gap-8">
                     <div>
                       <p className="mt-4 text-lg font-medium text-blue-500">
-                        Co-founder &amp; Lead Frontend Developer -{" "}
+                        Frontend Developer -{" "}
                         <span className="text-white/45">
-                          SomoLabs Ltd, Kigali, Rwanda
+                          SomoLabs Ltd, Remote (Kigali, Rwanda)
                         </span>
                         <span className="block text-xs text-white/45">
                           July 2023 - present
@@ -187,29 +180,30 @@ export default function About() {
                       <div className="mt-4 text-md font-medium text-white/45">
                         <ul className="list-disc list-inside mt-4">
                           <li>
-                            Co-founded and developed an online learning platform
-                            allowing students to enroll in curriculum-based
-                            courses with interactive content, exercises,
-                            external resources, and discussion forums.
+                            Developed and maintained user-facing features using React, HTML, CSS, and JavaScript to
+                            create intuitive and responsive web interfaces.
                           </li>
                           <li>
-                            Lead the development and deployment of the platform,
-                            implementing features such as personalized learning
-                            paths, gamified learning experiences, and real-time
-                            feedback and assessments.
+                            Collaborated with the design team to implement UI/UX designs, ensuring consistency with
+                            brand guidelines and enhancing user experience.
                           </li>
                           <li>
-                            Managed all aspects of the project including
-                            planning, coding, testing, and deployment using
-                            technologies like React.js, Python Django,
-                            microservices, Docker, and AWS.
+                            Optimized web applications for maximum speed and scalability by refactoring code and
+                            leveraging modern web development practices.
+                          </li>
+                          <li>
+                            Integrated APIs and backend services, ensuring seamless data flow and real-time updates
+                            within the application.
+                          </li>
+                          <li>
+                            Participated in code reviews, debugging, and testing, contributing to the overall quality and performance of the codebase.
                           </li>
                         </ul>
                       </div>
                     </div>
                     <div>
                       <p className="mt-4 text-lg font-medium text-blue-500">
-                        Software Developer Intern -{" "}
+                      Software Developer Intern -{" "}
                         <span className="text-white/45">
                           Algonquin College ( Dpt. of Entrepreneurship &
                           Innovation)
@@ -251,30 +245,30 @@ export default function About() {
                       </div>
                     </div>
 
-                    <div>
-                      <h2 className="text-2xl font-bold tracking-tight text-white/80">
-                        Self-initiated projects
-                      </h2>
-                      <p className=" mt-4 text-lg font-medium text-blue-500">
-                        Various Projects{" "}
-                        <span className="block text-xs text-white/45">
-                          Sept. 2022 - Present
-                        </span>
-                      </p>
-                      <p className="mt-4 text-md font-medium text-white/45">
-                        I worked on various self-initiated projects as a
-                        fullstack web developer. Through this experiential
-                        learning, I gained a deeper understanding of the web
-                        development process, SDLC, Design Patterns and various
-                        system architectural techniques for writing clean,
-                        maintainable code. All my projects are available on this
-                        website,
-                        <Link href={"/projects"} className="text-blue-500">
-                          {" "}
-                          check them out.
-                        </Link>
-                      </p>
-                    </div>
+                    {/*<div>*/}
+                    {/*  <h2 className="text-2xl font-bold tracking-tight text-white/80">*/}
+                    {/*    Self-initiated projects*/}
+                    {/*  </h2>*/}
+                    {/*  <p className=" mt-4 text-lg font-medium text-blue-500">*/}
+                    {/*    Various Projects{" "}*/}
+                    {/*    <span className="block text-xs text-white/45">*/}
+                    {/*      Sept. 2022 - Present*/}
+                    {/*    </span>*/}
+                    {/*  </p>*/}
+                    {/*  <p className="mt-4 text-md font-medium text-white/45">*/}
+                    {/*    I worked on various self-initiated projects as a*/}
+                    {/*    fullstack web developer. Through this experiential*/}
+                    {/*    learning, I gained a deeper understanding of the web*/}
+                    {/*    development process, SDLC, Design Patterns and various*/}
+                    {/*    system architectural techniques for writing clean,*/}
+                    {/*    maintainable code. All my projects are available on this*/}
+                    {/*    website,*/}
+                    {/*    <Link href={"/projects"} className="text-blue-500">*/}
+                    {/*      {" "}*/}
+                    {/*      check them out.*/}
+                    {/*    </Link>*/}
+                    {/*  </p>*/}
+                    {/*</div>*/}
                   </div>
                 </div>
               </div>

@@ -73,7 +73,7 @@ const projects = [
 
 
 const words = `
-I try to build projects that solve real-world problems and help me learn new technologies. I am currently working on project SomoLabs, a SaaS learning platform for structured, curriculum-aligned courses.  I built it's entire frontend single-handedly with TypeScript. It's backend is written in Python and mobile version is built with React Native.
+I try to build projects that solve real-world problems and help me learn new technologies. I am currently working remote at SomoLabs, a SaaS learning platform and company based in Kigali. Rwanda.
 `;
 
 function LinkIcon(props: any) {

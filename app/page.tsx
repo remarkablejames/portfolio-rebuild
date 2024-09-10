@@ -13,11 +13,10 @@ export default function Home() {
                               <div className="max-w-xl text-center lg:text-left">
                                   <div>
                                       <p className="mt-8 text-3xl font-bold tracking-tighter lg:text-6xl text-white">
-                                        A reliable software developer
+                                        Skilled & Reliable Software Developer
                                       </p>
                                       <p className="max-w-xl mt-4 text-lg tracking-tight lg:text-xl text-white/45">
-                                          With a college diploma in web development & Internet Application. I have hands-on experience gained through internships
-                                          and projects, I write TypeScript, Python, and C#.
+                                          With a college diploma in web development & Internet Application. I currently work as a Frontend developer @ SomoLabs. I write TypeScript, Python, and C#.
                                       </p>
                                   </div>
                                   <div
