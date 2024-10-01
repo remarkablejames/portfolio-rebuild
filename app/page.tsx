@@ -1,53 +1,86 @@
 import Image from 'next/image'
 import Link from "next/link";
 import FramerMotionWrapper from "@/components/FramerMotionWrapper";
+import CenteredLayout from "@/components/layout/centered-layout";
 
 export default function Home() {
   return (
-      <FramerMotionWrapper>
-          <section className="relative flex items-center w-full bg-black">
-              <div className="relative items-center w-full px-5 py-24 mx-auto lg:px-16 lg:py-36 max-w-7xl md:px-12">
-                  <div className="relative flex-col items-start m-auto align-middle">
-                      <div className="grid grid-cols-1 gap-6 lg:gap-24 lg:grid-cols-2">
-                          <div className="relative items-center gap-12 m-auto lg:inline-flex">
-                              <div className="max-w-xl text-center lg:text-left">
-                                  <div>
-                                      <p className="mt-8 text-3xl font-bold tracking-tighter lg:text-6xl text-white">
-                                        Skilled & Reliable Software Developer
-                                      </p>
-                                      <p className="max-w-xl mt-4 text-lg tracking-tight lg:text-xl text-white/45">
-                                          With a college diploma in web development & Internet Application. I currently work as a Frontend developer @ SomoLabs. I write TypeScript, Python, and C#.
-                                      </p>
-                                  </div>
-                                  <div
-                                      className="flex  justify-start  gap-3  mt-10 sm:flex-row">
-                                      <Link
-                                          href="/about"
-                                          className="text-white font-semibold focus:outline-none inline-flex items-center justify-center rounded-md bg-black duration-200 focus-visible:outline-black focus-visible:ring-black hover:bg-white/25 border border-white/25 hover:text-white lg:w-auto px-6 py-3 text-center w-full"
-                                      >
-                                          More about me
-                                      </Link>
-                                      <Link
-                                          href="/projects"
+      <>
+          <CenteredLayout>
+              <section className={"w-full flex flex-col items-center justify-center text-md"}>
+                  <div className={"flex gap-3"}>
+                      <p className={"text-muted-foreground w-[5rem] text-end"}>Summary</p>
+                      <div className={"max-w-lg space-y-4"}>
+                          <p>
+                              Hi, I’m James – a software developer, entrepreneur and music fan based in Ottawa.
+                          </p>
 
-                                          className="text-black font-semibold focus:outline-none inline-flex items-center justify-center rounded-md bg-white duration-200 focus-visible:outline-black focus-visible:ring-black  hover:bg-white/70   lg:w-auto px-6 py-3 text-center w-full"
-                                      >
-                                          View my work
-                                      </Link>
-                                  </div>
-                              </div>
-                          </div>
-                          <div className="hidden lg:block w-full p-2 mt-12 bg-white/25 lg:mt-0 rounded-3xl">
-                              <img
-                                  alt="hero"
-                                  className="object-cover object-center w-full h-full mx-auto lg:ml-auto rounded-2xl"
-                                  src="https://res.cloudinary.com/james-me/image/upload/f_auto,q_auto/v1/Portfolio-media/to3tenbsq2dmchmltaau"
-                              />
-                          </div>
+                          <p>
+                              I’m currently building <span className={"text-blue-600"}>SomoLabs</span>, an online
+                              learning platform that offers curriculum-aligned courses via multimedia format.
+                          </p>
+
+                          <p>
+                              I love the craft of software engineering and enjoy reading technical books. I write TypeScript, Python and C#. My all-time favorite is <span className={"text-blue-600"}> The Mythical man-month</span>, a collection of software engineering essays written by Fred Brooks. If you haven&apos;t; give it a read.
+                          </p>
                       </div>
                   </div>
-              </div>
-          </section>
-      </FramerMotionWrapper>
+
+              </section>
+              <section className={"w-full flex flex-col items-center justify-center text-md mt-12"}>
+                  <div className={"flex gap-3"}>
+                      <p className={"text-muted-foreground w-[5rem] text-end"}>Education</p>
+                      <div className={"max-w-lg"}>
+                          <p>
+                              Ontario College Diploma in Web Development & Internet Application
+                          </p>
+                          <p className={"text-white/50 mt-2"}>
+                              Algonquin College of Applied Arts and Technology - Ottawa, ON
+                          </p>
+                          <p className={"text-white/50 text-xs mt-2"}>
+                              2022 - 2024
+                          </p>
+
+                      </div>
+                  </div>
+
+              </section>
+              <section className={"w-full flex flex-col items-center justify-center text-md mt-12"}>
+                  <div className={"flex gap-3"}>
+                      <p className={"text-muted-foreground w-[5rem] text-end"}>Work</p>
+                      <div className={"w-[32rem] space-y-6"}>
+                          <div>
+                          <div className={"flex items-center justify-between gap-2"}>
+                              <p>
+                                  Frontend developer @ SomoLabs
+                              </p>
+                              <div className={"border-t flex-grow border-zinc-700"}/>
+                              <p className={"text-white/30"}>2023 - Present</p>
+                          </div>
+                          <p className={"text-white/50"}>
+                              SomoLabs is an educational startup SaaS company registered in Kigali, Rwanda. I co-founded the company with 2 friends in 2023. I am responsible for the frontend development of the platform.
+                          </p>
+                          </div>
+
+                          <div>
+                          <div className={"flex items-center justify-between gap-2"}>
+                              <p>Intern @ Algonquin College
+                              </p>
+                              <div className={"border-t flex-grow border-zinc-700"}/>
+                              <p className={"text-white/30"}>Sept. 2023 - Dec. 2024</p>
+                          </div>
+                          <p className={"text-white/50"}>
+                                I worked as a software developer intern at Algonquin College's department of Innovation and Entrepreneurship. It was more of entrepreneurial work than software development. From there, SomoLabs was born.
+                          </p>
+                          </div>
+
+
+                      </div>
+                  </div>
+
+              </section>
+          </CenteredLayout>
+      </>
+
   )
 }

@@ -159,7 +159,7 @@ export default function About() {
                     Summary
                   </h2>
                   <p className="mt-4 text-md text-white/45 font-medium text-justify">
-                    Reliable software developer with a college diploma in Web Development & Internet Applications, Skilled in designing, developing, testing and deploying sophisticated web applications using modern technologies. I have hands-on experience building real world applications that I gained through work, internships, and personal projects I built. I’m a team player with excellent communication skills, eager to contribute to collaborative projects.
+                    Reliable software developer with a college diploma in Web Development & Internet Applications. Skilled in designing, developing, testing and deploying sophisticated web applications using modern technologies. I have hands-on experience building real world applications that I gained through work, internships, and personal projects I built. I’m a team player with excellent communication skills, eager to contribute to collaborative projects.
                   </p>
                 </div>
                 <div>
