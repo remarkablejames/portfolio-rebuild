@@ -25,11 +25,11 @@ export default function Projects() {
           <div className="grid grid-cols-1 gap-x-8 md:grid-cols-2 w-full gap-y-12 pl-16">
             {
               AllProjects.map((project, index) => (
-                    <Link className={"text-sm hover:bg-zinc-700 p-4 cursor-pointer rounded-md transition-colors duration-200"}
+                    <Link className={"text-sm hover:bg-zinc-700 p-4 cursor-pointer border-[0.5px] border-muted-foreground  transition-colors duration-200"}
                     key={index}
                           href={`/projects/${project.id}`}
                     >
-                      <h4 className="scroll-m-20 text-lg font-semibold tracking-tight">
+                      <h4 className="scroll-m-20 text-lg text-blue-600 font-semibold tracking-tight">
                         {project.name}
                       </h4>
                       <p className={"text-muted-foreground"}>

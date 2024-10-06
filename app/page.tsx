@@ -13,12 +13,12 @@ export default function Home() {
                               Hi, I’m James – a software developer and entrepreneur based in Ottawa.
                           </p>
                           <p>
-                              I’m currently building <span className="text-blue-600">SomoLabs</span>, an online learning
+                              I’m currently building <a href={"https://www.somolabs.com/"} target="_blank" className="text-blue-600">SomoLabs</a>, an online learning
                               platform that offers curriculum-aligned courses via multimedia format.
                           </p>
                           <p>
                               I love the craft of software engineering and enjoy reading technical books. I write
-                              TypeScript, Python, and C#. My all-time favorite is <span className="text-blue-600">The Mythical Man-Month</span>,
+                              TypeScript, Python, and C#. My all-time favorite is <a href="https://www.google.com/search?q=The+Mythical+Man-Month&sourceid=chrome&ie=UTF-8" target="_blank" className="text-blue-600">The Mythical Man-Month</a>,
                               a collection of software engineering essays written by Fred Brooks. If you haven&apos;t;
                               give it a read.
                           </p>
