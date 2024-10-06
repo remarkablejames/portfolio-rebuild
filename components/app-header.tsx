@@ -23,10 +23,6 @@ function AppHeader() {
             url: "/setup"
         },
         {
-            name: "Contact",
-            url: "/contact"
-        },
-        {
             name: "Resume",
             url: "/assets/James-Niyongira-Resume.pdf"
         }
