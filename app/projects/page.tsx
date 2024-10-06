@@ -22,7 +22,7 @@ export default function Projects() {
         <section className={"flex items-center justify-center"}>
         {/*    a grid element with two equal columns*/}
           <div className={"max-w-2xl"}>
-          <div className="grid grid-cols-1 gap-x-8 md:grid-cols-2 w-full gap-y-12 pl-16">
+          <div className="grid grid-cols-1 gap-x-8 md:grid-cols-2 w-full gap-y-12 ">
             {
               AllProjects.map((project, index) => (
                     <Link className={"text-sm hover:bg-zinc-700 p-4 cursor-pointer border-[0.5px] border-muted-foreground  transition-colors duration-200"}

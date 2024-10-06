@@ -13,7 +13,7 @@ export default function Home() {
                               Hi, I’m James – a software developer and entrepreneur based in Ottawa.
                           </p>
                           <p>
-                              I’m currently building <a href={"https://www.somolabs.com/"} target="_blank" className="text-blue-600">SomoLabs</a>, an online learning
+                              I’m currently building <a href={"https://www.somolabs.com/"} target="_blank" className="text-blue-600">SomoLabs</a>, an integrated online learning
                               platform that offers curriculum-aligned courses via multimedia format.
                           </p>
                           <p>
