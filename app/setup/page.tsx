@@ -35,7 +35,7 @@ function Page() {
                         <div>
                             <p>Jetbrains Toolbox</p>
                             <p className="text-white/50">
-                                I use the Jetbrains Toolbox to manage all of my IDEs. I use WebStorm, Rider, DataGrip, and Space most often.
+                                I am not a typical VS Code guy, I use the Jetbrains IDEs on all of my projects. WebStorm, Pycharm, Rider and DataGrip are pinned to my taskbar.
                             </p>
                         </div>
                         <div>
