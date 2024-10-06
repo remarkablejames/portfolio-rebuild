@@ -18,7 +18,7 @@ export default function Home() {
                           </p>
                           <p>
                               I love the craft of software engineering and enjoy reading technical books. I write
-                              TypeScript, Python, and C#. My all-time favorite book is <a href="https://www.google.com/search?q=The+Mythical+Man-Month&sourceid=chrome&ie=UTF-8" target="_blank" className="text-blue-600">The Mythical Man-Month</a>,
+                              TypeScript, Python, and C#. My all-time favorite technical book is <a href="https://www.google.com/search?q=The+Mythical+Man-Month&sourceid=chrome&ie=UTF-8" target="_blank" className="text-blue-600">The Mythical Man-Month</a>,
                               a collection of software engineering essays written by Fred Brooks. If you haven&apos;t;
                               give it a read.
                           </p>
@@ -49,9 +49,7 @@ export default function Home() {
                                   <p className="text-white/30 text-xs  mb-4 md:mb-0">2023 - Present</p>
                               </div>
                               <p className="text-white/50">
-                                  SomoLabs is an educational startup SaaS company registered in Kigali, Rwanda. I
-                                  co-founded the company with 2 friends in 2023. I am responsible for the frontend
-                                  development of the platform.
+                                  SomoLabs is an educational SaaS startup that I co-founded and developed from scratch with two other friends. I work as a full-stack developer, primarily focusing on front-end development and its integration with the back-end and third-party APIs.
                               </p>
                           </div>
                           <div>
