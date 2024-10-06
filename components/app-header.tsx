@@ -22,10 +22,10 @@ function AppHeader() {
             name: "My Setup",
             url: "/setup"
         },
-        {
-            name: "Resume",
-            url: "/assets/James-Niyongira-Resume.pdf"
-        }
+        // {
+        //     name: "Resume",
+        //     url: "/assets/James-Niyongira-Resume.pdf"
+        // }
     ]
 
     const pathname = usePathname()
