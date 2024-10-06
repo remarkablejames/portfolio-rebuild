@@ -14,7 +14,7 @@ export default function Home() {
                           </p>
                           <p>
                               I’m currently building <a href={"https://www.somolabs.com/"} target="_blank" className="text-blue-600">SomoLabs</a>, an integrated online learning
-                              platform that offers curriculum-aligned courses via multimedia format.
+                              platform that offers curriculum-aligned courses delivered in  multimedia format.
                           </p>
                           <p>
                               I love the craft of software engineering and enjoy reading technical books. I write
@@ -40,13 +40,13 @@ export default function Home() {
 
               <section className="w-full flex flex-col items-center justify-center text-md mt-12">
                   <div className="flex flex-col sm:flex-row gap-3">
-                      <p className="text-blue-600 sm:text-muted-foreground w-full sm:w-[5rem] text-start sm:text-end">Work</p>
+                      <p className="text-muted-foreground w-full sm:w-[5rem] text-start sm:text-end">Work</p>
                       <div className="w-full sm:w-[32rem] space-y-6">
                           <div>
-                              <div className="flex flex-col sm:flex-row items-center justify-between gap-2">
+                              <div className="flex flex-col sm:flex-row items-start md:items-center justify-between gap-0 md:gap-2">
                                   <p>Co-founder & developer @ SomoLabs</p>
                                   <div className="border-t flex-grow border-zinc-700"/>
-                                  <p className="text-white/30">2023 - Present</p>
+                                  <p className="text-white/30 text-xs md:text-base mb-4 md:mb-0">2023 - Present</p>
                               </div>
                               <p className="text-white/50">
                                   SomoLabs is an educational startup SaaS company registered in Kigali, Rwanda. I
@@ -55,10 +55,12 @@ export default function Home() {
                               </p>
                           </div>
                           <div>
-                              <div className="flex flex-col sm:flex-row items-center justify-between gap-2">
+                              <div
+                                  className="flex flex-col sm:flex-row items-start md:items-center justify-between gap-0 md:gap-2">
                                   <p>Intern @ Algonquin College</p>
                                   <div className="border-t flex-grow border-zinc-700"/>
-                                  <p className="text-white/30">Sept. 2023 - Dec. 2024</p>
+                                  <p className="text-white/30 text-xs md:text-base mb-4 md:mb-0">Sept. 2023 - Dec.
+                                      2024</p>
                               </div>
                               <p className="text-white/50">
                                   I worked as a software developer intern at Algonquin College&apos;s department of
