@@ -46,7 +46,7 @@ export default function Home() {
                               <div className="flex flex-col sm:flex-row items-start md:items-center justify-between gap-0 md:gap-2">
                                   <p>Co-founder & developer @ SomoLabs</p>
                                   <div className="border-t flex-grow border-zinc-700"/>
-                                  <p className="text-white/30 text-xs md:text-base mb-4 md:mb-0">2023 - Present</p>
+                                  <p className="text-white/30 text-xs  mb-4 md:mb-0">2023 - Present</p>
                               </div>
                               <p className="text-white/50">
                                   SomoLabs is an educational startup SaaS company registered in Kigali, Rwanda. I
@@ -57,9 +57,9 @@ export default function Home() {
                           <div>
                               <div
                                   className="flex flex-col sm:flex-row items-start md:items-center justify-between gap-0 md:gap-2">
-                                  <p>Intern @ Algonquin College</p>
+                                  <p>Software Developer Intern @ Algonquin College</p>
                                   <div className="border-t flex-grow border-zinc-700"/>
-                                  <p className="text-white/30 text-xs md:text-base mb-4 md:mb-0">Sept. 2023 - Dec.
+                                  <p className="text-white/30 text-xs  mb-4 md:mb-0">Sept. 2023 - Dec.
                                       2024</p>
                               </div>
                               <p className="text-white/50">
