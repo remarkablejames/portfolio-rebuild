@@ -10,7 +10,7 @@ export default function Home() {
                       <p className="text-muted-foreground w-full sm:w-[5rem] text-start sm:text-end">Summary</p>
                       <div className="w-full sm:max-w-lg space-y-4">
                           <p>
-                              Hi, I’m James – a software developer and entrepreneur based in Ottawa.
+                              Hi, I’m James – a software developer based in Ottawa.
                           </p>
                           <p>
                               I’m currently building <a href={"https://www.somolabs.com/"} target="_blank" className="text-blue-600">SomoLabs</a>, an integrated online learning
