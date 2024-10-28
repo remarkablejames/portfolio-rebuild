@@ -18,7 +18,7 @@ export default function Home() {
                           </p>
                           <p>
                               I love the craft of software engineering and enjoy reading technical books. I write
-                              TypeScript, Python, and C#. My all-time favorite technical book is <a href="https://www.google.com/search?q=The+Mythical+Man-Month&sourceid=chrome&ie=UTF-8" target="_blank" className="text-blue-600">The Mythical Man-Month</a>,
+                              TypeScript and C#. My all-time favorite technical book is <a href="https://www.google.com/search?q=The+Mythical+Man-Month&sourceid=chrome&ie=UTF-8" target="_blank" className="text-blue-600">The Mythical Man-Month</a>,
                               a collection of software engineering essays written by Fred Brooks. If you haven&apos;t;
                               give it a read.
                           </p>
@@ -44,12 +44,12 @@ export default function Home() {
                       <div className="w-full sm:w-[32rem] space-y-6">
                           <div>
                               <div className="flex flex-col sm:flex-row items-start md:items-center justify-between gap-0 md:gap-2">
-                                  <p>Co-founder & developer @ SomoLabs</p>
+                                  <p>Frontend Developer @ SomoLabs</p>
                                   <div className="border-t flex-grow border-zinc-700"/>
-                                  <p className="text-white/30 text-xs  mb-4 md:mb-0">2023 - Present</p>
+                                  <p className="text-white/30 text-xs  mb-4 md:mb-0">Dec. 2023 - Present</p>
                               </div>
                               <p className="text-white/50">
-                                  SomoLabs is an educational SaaS startup that I co-founded and developed from scratch with two other friends. I work as a full-stack developer, primarily focusing on front-end development and its integration with the back-end and third-party APIs.
+                                  SomoLabs is an educational SaaS startup that I co-founded and developed from scratch with two other friends. I work as a frontend engineer, primarily focusing on front-end design, performance optimization and its integration with the back-end and third-party APIs.
                               </p>
                           </div>
                           <div>

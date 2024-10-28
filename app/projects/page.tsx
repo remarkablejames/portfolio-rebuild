@@ -35,11 +35,11 @@ export default function Projects() {
                       <p className={"text-muted-foreground"}>
                         {project.time}
                       </p>
-                      <p className={"w-full text-white/80"}>
-                        {project.description}
-                      </p>
+                        <p className={"w-full text-white/80"}>
+                            {project.description.length > 100 ? `${project.description.substring(0, 100)}...` : project.description}
+                        </p>
                     </Link>
-                ))
+              ))
             }
 
           </div>

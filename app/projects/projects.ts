@@ -3,11 +3,11 @@ export const AllProjects = [
     {
         id: 1,
         name: "SomoLabs",
-        time: "July 2023 - Present",
-        description: "I am currently working remote at SomoLabs, a SaaS learning platform and company based in Kigali. Rwanda.",
+        time: "December 2023 - Present",
+        description: "This is an integrated online learning platform that offers curriculum-aligned courses delivered in multimedia format. I work as a frontend engineer, primarily focusing on front-end design, performance optimization and its integration with the back-end and third-party APIs. Me and two other friends co-founded SomoLabs as a solution to the lack of quality and structured online educational content in the African market.",
         link: {
             href: "https://somolabs.com/",
-            label: "somolabs.com",
+            label: "www.somolabs.com",
         },
     },
     {
