@@ -12,10 +12,10 @@ export default function Home() {
                           <p>
                               Hi, I’m James – a software developer based in Ottawa.
                           </p>
-                          <p>
-                              I currently work as a Frontend Developer at <a href={"https://www.somolabs.com/"} target="_blank" className="text-blue-600">SomoLabs</a>, an integrated online learning
-                              platform that offers curriculum-aligned courses delivered in  multimedia format.
-                          </p>
+                          {/*<p>*/}
+                          {/*    I currently work as a Frontend Developer at <a href={"https://www.somolabs.com/"} target="_blank" className="text-blue-600">SomoLabs</a>, an integrated online learning*/}
+                          {/*    platform that offers curriculum-aligned courses delivered in  multimedia format.*/}
+                          {/*</p>*/}
                           <p>
                               I love the craft of software engineering and enjoy reading technical books. I write
                               TypeScript and C#. My all-time favorite technical book is <a href="https://www.google.com/search?q=The+Mythical+Man-Month&sourceid=chrome&ie=UTF-8" target="_blank" className="text-blue-600">The Mythical Man-Month</a>,
