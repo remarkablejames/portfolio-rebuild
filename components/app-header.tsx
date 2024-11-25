@@ -35,10 +35,10 @@ function AppHeader() {
             <p className={"text-muted-foreground text-xs"}>
                 @remarkablejames
             </p>
-            <div className={"flex gap-3 text-muted-foreground mt-6 text-sm"}>
+            <div className={"flex gap-3 text-neutral-500 mt-6 text-sm"}>
                 {links.map((link, index) => (
                     <Link key={index} href={link.url}
-                          className={`hover:text-primary-foreground ${pathname === link.url ? "text-white" : ""}`}>
+                          className={`hover:text-primary-foreground ${pathname === link.url ? "text-blue-600 font-semibold underline underline-offset-4" : ""}`}>
                         {link.name}
                     </Link>
                 ))}

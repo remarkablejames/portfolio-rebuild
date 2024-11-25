@@ -17,8 +17,8 @@ export default function Home() {
                           {/*    platform that offers curriculum-aligned courses delivered in  multimedia format.*/}
                           {/*</p>*/}
                           <p>
-                              I love the craft of software engineering and indie folk-pop music. I write
-                              TypeScript and C#. My favorite icelandic music band is <a href="https://www.youtube.com/@monstersandmen" target="_blank" className="text-blue-600">Of Monsters and Men</a>.
+                              I love the craft of software engineering and folk-pop music. When I’m not writing TypeScript or C#, you’ll often find me listening to my favorite Icelandic band, <a href="https://www.youtube.com/@monstersandmen" target="_blank" className="text-blue-600">Of
+                              Monsters and Men</a>.
                           </p>
                       </div>
                   </div>
