@@ -24,10 +24,10 @@ export const AllProjects = [
     },
     {
         id: 3,
-        name: "Natours",
+        name: "SomoLabs Mobile",
         time: "July 2023 - September 2023",
         description:
-            "A tour booking platform built with Node.js, Express, MongoDB, and Nextjs",
+            "A mobile app for SomoLabs built with React Native and Python Django",
         link: {
             href: "https://github.com/remarkablejames/Natours",
             label: "Open on GitHub",

@@ -21,3 +21,20 @@ const triplet = (e1: number, e2: number, e3: number) =>
     keyStr.charAt(((e1 & 3) << 4) | (e2 >> 4)) +
     keyStr.charAt(((e2 & 15) << 2) | (e3 >> 6)) +
     keyStr.charAt(e3 & 63)
+
+
+export function DateFormatter(date: Date) {
+    const options: Intl.DateTimeFormatOptions = {
+        weekday: "long",
+        day: "numeric",
+        month: "long",
+        year: "numeric",
+    };
+    return date
+        .toLocaleDateString("en-GB", options)
+        .replace(/(\d+)(?=\s)/, (d: string) => {
+            const suffix = ["th", "st", "nd", "rd"];
+            const v = parseInt(d) % 100;
+            return d + (suffix[(v - 20) % 10] || suffix[v] || suffix[0]);
+        });
+}

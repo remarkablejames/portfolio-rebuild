@@ -1,11 +1,15 @@
 import FramerMotionWrapper from "@/components/FramerMotionWrapper";
 import Link from "next/link";
 import { projects } from "@/lib/data";
+import MarkdownTransformer from "@/components/markdown-transformer";
+import React from "react";
 
 export default function About() {
   return (
     <FramerMotionWrapper>
       <>
+
+        <MarkdownTransformer markdownContent={"**currentPost.content**"}/>
         <section className={"md:mt-8"}>
           <div className="max-w-5xl px-8 py-12 mx-auto 2xl:max-w-7xl md:px-lg:px-24">
             <div className="flex flex-col-reverse md:grid md:grid-cols-2 lg:grid-cols-3 lg:gap-12">
