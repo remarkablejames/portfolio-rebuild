@@ -12,8 +12,7 @@ import { CopyBlock, dracula } from "react-code-blocks"; // `rehype-katex` does n
 export default function MarkdownTransformer({ markdownContent }) {
   return (
     <div className={"flex items-center justify-center"}>
-      <article className="max-w-none  py-2 prose "
-      >
+      <article className="max-w-none  py-2 prose prose-p:text-neutral-2003">
         <ReactMarkdown
           className={"max-w-4xl overflow-scroll"}
           remarkPlugins={[remarkGfm, remarkMath]}

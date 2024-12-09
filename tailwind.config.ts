@@ -1,4 +1,4 @@
-import plugin, { Config } from 'tailwindcss'
+import plugin, { Config } from "tailwindcss";
 
 const config: Config = {
   content: [
@@ -10,9 +10,9 @@ const config: Config = {
   theme: {
     extend: {
       backgroundImage: {
-        'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
-        'gradient-conic':
-          'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
+        "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
+        "gradient-conic":
+          "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       },
       typography: (theme: any) => ({
         invert: {
@@ -23,7 +23,7 @@ const config: Config = {
             "--tw-prose-links-hover": "var(--tw-prose-invert-links-hover)",
             "--tw-prose-underline": "var(--tw-prose-invert-underline)",
             "--tw-prose-underline-hover":
-                "var(--tw-prose-invert-underline-hover)",
+              "var(--tw-prose-invert-underline-hover)",
             "--tw-prose-bold": "var(--tw-prose-invert-bold)",
             "--tw-prose-counters": "var(--tw-prose-invert-counters)",
             "--tw-prose-bullets": "var(--tw-prose-invert-bullets)",
@@ -90,7 +90,7 @@ const config: Config = {
                                                                },
                                                                */
             p: {
-              color: "var(--tw-prose-body)",
+              color: "#737373",
               marginTop: "0px",
               marginBottom: "0rem",
               paddingTop: "0.5rem",
@@ -178,7 +178,7 @@ const config: Config = {
               transitionProperty: "color, text-decoration-color",
               transitionDuration: theme("transitionDuration.150"),
               transitionTimingFunction: theme(
-                  "transitionTimingFunction.in-out",
+                "transitionTimingFunction.in-out"
               ),
             },
             "a:hover": {
@@ -278,7 +278,7 @@ const config: Config = {
               paddingLeft: theme("spacing[3.5]"),
             },
             "li::marker": {
-                color: "#99a1c5",
+              color: "#737373",
               fontSize: theme("fontSize.sm")[0],
               fontWeight: theme("fontWeight.semibold"),
             },
@@ -414,8 +414,6 @@ const config: Config = {
       }),
     },
   },
-  plugins: [
-    require("@tailwindcss/typography"),
-  ],
-}
-export default config
+  plugins: [require("@tailwindcss/typography")],
+};
+export default config;
