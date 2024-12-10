@@ -17,7 +17,7 @@ export default function Home() {
               {/*</p>*/}
               <p className="text-justify">
                 I love the craft of software engineering, Philosophy and
-                folk-pop music. When I’m not nerding out to something, you’ll
+                indie-pop folk music. When I’m not nerding out to something, you’ll
                 often find me listening to my favorite Icelandic band,{" "}
                 <a
                   href="https://www.youtube.com/@monstersandmen"

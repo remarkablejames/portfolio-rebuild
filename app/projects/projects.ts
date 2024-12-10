@@ -7,9 +7,16 @@ export const AllProjects = [
       "This is a propeietary, production-grade online learning platform that offers curriculum-aligned courses delivered in multimedia format. My work on this project as a frontend engineer, primarily focuses on front-end design, performance optimization and its integration with the back-end and third-party APIs. This application is built with Next.js, TypeScript, and Tailwind CSS. I also work on the backend with Python and other technologies.",
     link: {
       href: "https://somolabs.com/",
-      label: "www.somolabs.com",
+      label: "Live preview",
       active: true,
     },
+    images: [{ src: "https://res.cloudinary.com/dhka6cqkn/image/upload/f_auto,q_auto/v1/potfolio-images/project-somolabs/wbzyxivtd0ken67o0jw2", aspect_ratio: 16 / 9 },
+      { src: "https://res.cloudinary.com/dhka6cqkn/image/upload/f_auto,q_auto/v1/potfolio-images/project-somolabs/ozjqeezdhuyzutkyo900", aspect_ratio: 16 / 9 },
+      {
+        src: "https://res.cloudinary.com/dhka6cqkn/image/upload/f_auto,q_auto/v1/potfolio-images/project-somolabs/dx6ve7ppn81q4uxp7efa",
+        aspect_ratio: 16 / 9,
+      },
+      { src: "https://res.cloudinary.com/dhka6cqkn/image/upload/f_auto,q_auto/v1/potfolio-images/project-somolabs/w3clvqhssluigbbbucus", aspect_ratio: 16 / 9 },],
   },
   {
     id: 2,
@@ -46,6 +53,11 @@ export const AllProjects = [
       label: "Live preview",
       active: true,
     },
+    images: [{ src: "https://res.cloudinary.com/dhka6cqkn/image/upload/f_auto,q_auto/v1/potfolio-images/somolabs-cms/rtzfioywxq8ozdljr4jf", aspect_ratio: 16 / 9 },
+      { src: "https://res.cloudinary.com/dhka6cqkn/image/upload/f_auto,q_auto/v1/potfolio-images/somolabs-cms/uvga0wy9lgfivejklkcl", aspect_ratio: 16 / 9 },
+      { src: "https://res.cloudinary.com/dhka6cqkn/image/upload/f_auto,q_auto/v1/potfolio-images/somolabs-cms/jkhggtxryplcqodnem5f", aspect_ratio: 16 / 9 },
+      { src: "https://res.cloudinary.com/dhka6cqkn/image/upload/f_auto,q_auto/v1/potfolio-images/somolabs-cms/h9u8cgb5d0rupepmqj8h", aspect_ratio: 16 / 9 }],
+
   },
   {
     id: 5,

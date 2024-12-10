@@ -1,11 +1,16 @@
 import CenteredLayout from "@/components/layout/centered-layout";
 import { AllProjects } from "@/app/projects/projects";
+import MyGallery from "./gallery";
+import { ImagePreviewer } from "./image-previewer";
+import FramerMotionWrapper from "@/components/FramerMotionWrapper";
+import {Button} from "@/components/ui/button";
 
 export default function ProjectDetails({ params }: any) {
   const project =
     AllProjects.find((project) => project.id === Number(params.project_id)) ||
     AllProjects[0];
   return (
+      <FramerMotionWrapper>
     <CenteredLayout>
       <div className={"flex items-center justify-center"}>
         <div className={"text-sm max-w-xl p-4"}>
@@ -22,11 +27,12 @@ export default function ProjectDetails({ params }: any) {
             project.link.active ? (
               <a
                 href={project.link.href}
-                className={
-                  "text-blue-600 hover:text-primary-foreground transition-colors duration-200"
-                }
+
               >
-                {project.link.label}
+                <Button variant="outline" className=" bg-blue-600 hover:bg-blue-500 text-white/70 border-none transition-colors duration-200">
+                  {project.link.label}
+                </Button>
+                {/*{project.link.label}*/}
               </a>
             ) : (
               // If the project is not active, show a message
@@ -35,6 +41,19 @@ export default function ProjectDetails({ params }: any) {
           }
         </div>
       </div>
+        {
+            // If the project has images, show the gallery
+            project.images ? (
+                <MyGallery images={project.images} />
+            ) : (
+                <div className={"flex items-center justify-center"}>
+                <p className={"text-red-500 font-medium"}>
+                    No screenshot images available for this project
+                </p>
+                </div>
+            )
+        }
     </CenteredLayout>
+      </FramerMotionWrapper>
   );
 }
