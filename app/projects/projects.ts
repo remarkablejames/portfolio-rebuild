@@ -60,8 +60,8 @@ export const AllProjects = [
     description:
       "Minimal hospitality contractors management app where agencies can manage their contractors and assign them to events",
     link: {
-      href: "https://notes-app-james.netlify.app/",
-      label: "Live preview",
+      href: "https://github.com/remarkablejames/Banquetly",
+      label: "Source code(GitHub)",
     },
   },
 ];
