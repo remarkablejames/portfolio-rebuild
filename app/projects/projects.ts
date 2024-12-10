@@ -8,6 +8,7 @@ export const AllProjects = [
     link: {
       href: "https://somolabs.com/",
       label: "www.somolabs.com",
+      active: true,
     },
   },
   {
@@ -19,6 +20,7 @@ export const AllProjects = [
     link: {
       href: "https://github.com/remarkablejames/markdown-transpiller",
       label: "Open on GitHub",
+      active: true,
     },
   },
   {
@@ -26,10 +28,11 @@ export const AllProjects = [
     name: "SomoLabs Mobile",
     time: "July 2023 - September 2023",
     description:
-      "A mobile app for SomoLabs built with React Native and TypeScript",
+      "A mobile app that integrates with the SomoLabs online learning platform. This app is built with React Native and TypeScript.",
     link: {
-      href: "https://github.com/remarkablejames/Natours",
-      label: "Open on GitHub",
+      href: "https://github.com/brainwaveschool/SomoLabs-mobile",
+      label: "Source code is private",
+      active: false,
     },
   },
   {
@@ -41,6 +44,7 @@ export const AllProjects = [
     link: {
       href: "https://brainwave-admin.vercel.app/",
       label: "Live preview",
+      active: true,
     },
   },
   {
@@ -51,6 +55,7 @@ export const AllProjects = [
     link: {
       href: "https://movies-app-james-one-green.vercel.app",
       label: "Live preview",
+      active: true,
     },
   },
   {
@@ -58,10 +63,11 @@ export const AllProjects = [
     name: "Banquetly",
     time: "July 2023 - August 2023",
     description:
-      "Minimal hospitality contractors management app where agencies can manage their contractors and assign them to events",
+      "Minimal React Native app for managing hospitality event staff and their shift schedules",
     link: {
       href: "https://github.com/remarkablejames/Banquetly",
       label: "Source code(GitHub)",
+      active: true,
     },
   },
 ];

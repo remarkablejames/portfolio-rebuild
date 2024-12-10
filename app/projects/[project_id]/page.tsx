@@ -17,14 +17,22 @@ export default function ProjectDetails({ params }: any) {
             {project.description}
           </p>
 
-          <a
-            href={project.link.href}
-            className={
-              "text-blue-600 hover:text-primary-foreground transition-colors duration-200"
-            }
-          >
-            {project.link.label}
-          </a>
+          {
+            // If the project is active, show the link
+            project.link.active ? (
+              <a
+                href={project.link.href}
+                className={
+                  "text-blue-600 hover:text-primary-foreground transition-colors duration-200"
+                }
+              >
+                {project.link.label}
+              </a>
+            ) : (
+              // If the project is not active, show a message
+              <p className={"text-red-600/70"}>{project.link.label}</p>
+            )
+          }
         </div>
       </div>
     </CenteredLayout>
