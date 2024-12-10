@@ -29,15 +29,12 @@ export default function Home() {
                 .
               </p>
               <p className="text-justify">
-                My expertise spans diverse technical domains, from developing
-                robust web applications to designing compilers and sophisticated
-                recommendation systems. Most recently, I co-founded SomoLabs, an
-                educational SaaS startup that I built from the ground up with
-                two college friends. As a technical co-founder, I&apos;ve been
-                instrumental in transforming our shared vision into a tangible
-                product, leveraging my comprehensive software engineering skills
-                to drive the startup&apos;s technological foundation. See it for
-                yourself at{" "}
+                I build web applications, mobile apps, and content management
+                systems with TypeScript, C# and Python. I am passionate about
+                creating digital solutions that solve real-world problems and
+                improve people&apos;s lives. I am currently working on a
+                proprietary online learning platform called SomoLabs. Take a
+                free tour at{" "}
                 <a
                   href="https://www.somolabs.com/"
                   target="_blank"
@@ -95,9 +92,10 @@ export default function Home() {
                   As the lead frontend engineer, I architect the user interface,
                   drive performance improvements, implement comprehensive
                   testing strategies, and ensure seamless integration with
-                  backend services and third-party APIs. My role blends
+                  backend services and third-party APIs.
+                  {/* My role blends
                   technical expertise with strategic product development,
-                  creating intuitive and efficient digital learning solutions.
+                  creating intuitive and efficient digital learning solutions. */}
                 </p>
               </div>
               <div>
@@ -113,13 +111,14 @@ export default function Home() {
                 <p className="text-white/60 text-justify mt-2">
                   During this internship, I transitioned beyond traditional
                   software development into a more holistic role that centered
-                  on entrepreneurial strategy and innovation. This experience
+                  on entrepreneurial strategy and innovation.
+                  {/* This experience
                   was pivotal in shaping my understanding of technology&apos;s
                   potential to solve educational challenges, ultimately
                   inspiring the conceptualization of SomoLabs. Rather than
                   focusing solely on coding, I gained insights into the broader
                   ecosystem of technological innovation, product development,
-                  and entrepreneurial thinking.
+                  and entrepreneurial thinking. */}
                 </p>
               </div>
             </div>
