@@ -10,7 +10,7 @@ export default function Home() {
               Summary:
             </p>
             <div className="w-full sm:max-w-lg space-y-4">
-              <p>Hi, I’m James – a software developer based in Ottawa.</p>
+              <p>Hi, I’m James – a minimalist software developer based in Ottawa.</p>
               {/*<p>*/}
               {/*    I currently work as a Frontend Developer at <a href={"https://www.somolabs.com/"} target="_blank" className="text-blue-600">SomoLabs</a>, an integrated online learning*/}
               {/*    platform that offers curriculum-aligned courses delivered in  multimedia format.*/}
@@ -18,7 +18,7 @@ export default function Home() {
               <p className="text-justify">
                 I love the craft of software engineering, Philosophy and
                 indie-pop folk music. When I’m not nerding out to something, you’ll
-                often find me listening to my favorite Icelandic band,{" "}
+                often find me listening to music. My favorite band is  Icelandic,{" "}
                 <a
                   href="https://www.youtube.com/@monstersandmen"
                   target="_blank"
