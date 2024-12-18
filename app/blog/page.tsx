@@ -3,9 +3,11 @@ import CenteredLayout from "@/components/layout/centered-layout";
 import {posts} from "@/app/blog/posts";
 import Link from "next/link";
 import {DateFormatter} from "@/lib/utils";
+import FramerMotionWrapper from "@/components/FramerMotionWrapper";
 
 export default function Blog() {
     return (
+        <FramerMotionWrapper>
         <CenteredLayout>
             <section className={"flex items-center justify-center"}>
                 {/* List */}
@@ -39,5 +41,6 @@ export default function Blog() {
             </section>
 
         </CenteredLayout>
+        </FramerMotionWrapper>
     );
 };

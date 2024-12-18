@@ -1,8 +1,9 @@
 import CenteredLayout from "@/components/layout/centered-layout";
+import FramerMotionWrapper from "@/components/FramerMotionWrapper";
 
 export default function Home() {
   return (
-    <>
+    <FramerMotionWrapper>
       <CenteredLayout>
         <section className="w-full flex flex-col items-center justify-center text-md">
           <div className="flex flex-col sm:flex-row gap-3">
@@ -29,11 +30,10 @@ export default function Home() {
                 .
               </p>
               <p className="text-justify">
-                I build web applications, mobile apps, and content management
-                systems with TypeScript, C# and Python. I am passionate about
+                I build web and mobile applications with TypeScript, Go,  C# and Python. I am passionate about
                 creating digital solutions that solve real-world problems and
-                improve people&apos;s lives. I am currently working on a
-                proprietary online learning platform called SomoLabs. Take a
+                improve people&apos;s lives. I am currently working on an
+                 online learning platform called SomoLabs. Take a
                 free tour at{" "}
                 <a
                   href="https://www.somolabs.com/"
@@ -125,6 +125,6 @@ export default function Home() {
           </div>
         </section>
       </CenteredLayout>
-    </>
+    </FramerMotionWrapper>
   );
 }

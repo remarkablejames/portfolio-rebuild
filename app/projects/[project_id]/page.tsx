@@ -13,12 +13,12 @@ export default function ProjectDetails({ params }: any) {
       <FramerMotionWrapper>
     <CenteredLayout>
       <div className={"flex items-center justify-center"}>
-        <div className={"text-sm max-w-xl p-4"}>
+        <div className={"text-sm max-w-2xl p-4"}>
           <h4 className="scroll-m-20 text-3xl font-semibold tracking-tight">
             {project.name}
           </h4>
-          <p className={"text-muted-foreground"}>{project.time}</p>
-          <p className={"w-full text-neutral-500 my-6 text-lg"}>
+          <p className={"text-neutral-500"}>{project.time}</p>
+          <p className={"w-full text-neutral-400 my-6 text-lg text-justify"}>
             {project.description}
           </p>
 
