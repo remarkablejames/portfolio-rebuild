@@ -30,9 +30,9 @@ export default function Home() {
                 .
               </p>
               <p className="text-justify">
-                I build web and mobile applications with TypeScript, Go,  C# and Python. I am passionate about
+                I build web and mobile applications with TypeScript, Go,  C# and Python but my favorite is Go. I am passionate about
                 creating digital solutions that solve real-world problems and
-                improve people&apos;s lives. I am currently working on an
+                improve people&apos;s lives. I am currently building an
                  online learning platform called SomoLabs. Take a
                 free tour at{" "}
                 <a

@@ -12,8 +12,7 @@ export default function Projects() {
 
               <div className={"flex items-center justify-center mb-6"}>
               <p className={"max-w-md text-center text-lg font-semibold text-green-500 "}>
-                  3 Unique projects that showcase my sharp skills in software development as a front-end, back-end and
-                  mobile application developer.
+                  3 Unique projects that showcase my sharp full stack software development skills.
               </p>
               </div>
               <section className={"flex items-center justify-center"}>

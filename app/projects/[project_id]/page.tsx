@@ -29,7 +29,7 @@ export default function ProjectDetails({ params }: any) {
                 href={project.link.href}
 
               >
-                <Button variant="outline" className=" bg-blue-600 hover:bg-blue-500 text-white/70 border-none transition-colors duration-200">
+                <Button variant="outline" size={"sm"} className=" rounded-none bg-blue-600 hover:bg-blue-500 text-white/70 border-none transition-colors duration-200">
                   {project.link.label}
                 </Button>
                 {/*{project.link.label}*/}

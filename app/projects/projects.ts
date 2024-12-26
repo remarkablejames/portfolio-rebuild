@@ -35,14 +35,14 @@ export const AllProjects = [
 
   {
     id: 3,
-    name: "Distributed Task Queue System",
+    name: "GopherSocial",
     time: "November 2024 - Present",
     description:
-        " This is a system built with Go which enables tasks (or jobs) to be processed asynchronously across multiple worker nodes in a distributed environment. It decouples task creation from task execution, allowing scalability, fault tolerance, and efficient resource utilization.",
+        " GopherSocial is a social media platform that connects gophers around the world. I built this project with Go, React, and Tailwind CSS. The main goal was to put my backend engineering skills to the test and learn more about the Go ecosystem. It quickly became a passion project that I continue to work on.  Go is just like a drug, once you start using it, you can't stop.",
     link: {
-      href: "https://github.com/remarkablejames/Banquetly",
-      label: "Repo is private",
-      active: false,
+      href: "https://github.com/remarkablejames/gopherSocial",
+      label: "Source code (GitHub)",
+      active: true,
     },
   }
 ];
