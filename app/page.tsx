@@ -18,19 +18,19 @@ export default function Home() {
               {/*</p>*/}
               <p className="text-justify">
                 I love the craft of software engineering, Philosophy and
-                indie-pop folk music. When I’m not nerding out to something, you’ll
-                often find me listening to music. My favorite band is  Icelandic,{" "}
+                indie-pop music. When I’m not nerding out to something, you’ll
+                often find me listening to music. My favorite band is  British,{" "}
                 <a
-                  href="https://www.youtube.com/@monstersandmen"
+                  href="https://www.youtube.com/@altj"
                   target="_blank"
                   className="text-blue-600"
                 >
-                  Of Monsters and Men
+                  Alt-J
                 </a>
                 .
               </p>
               <p className="text-justify">
-                I build web and mobile applications with TypeScript, Go,  C# and Python but my favorite is Go. I am passionate about
+                I build web and mobile applications with TypeScript, Go,  C# and Python. I am passionate about
                 creating digital solutions that solve real-world problems and
                 improve people&apos;s lives. I am currently building an
                  online learning platform called SomoLabs. Take a
