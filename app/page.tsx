@@ -11,7 +11,7 @@ export default function Home() {
               Summary:
             </p>
             <div className="w-full sm:max-w-lg space-y-4">
-              <p>Hi, I’m James – a minimalist software developer based in Ottawa.</p>
+              <p>Hi, I’m James – a minimalist software engineer based in Ottawa.</p>
               {/*<p>*/}
               {/*    I currently work as a Frontend Developer at <a href={"https://www.somolabs.com/"} target="_blank" className="text-blue-600">SomoLabs</a>, an integrated online learning*/}
               {/*    platform that offers curriculum-aligned courses delivered in  multimedia format.*/}
@@ -21,7 +21,7 @@ export default function Home() {
                 indie-pop music. When I’m not nerding out to something, you’ll
                 often find me listening to music. My favorite band is  British,{" "}
                 <a
-                  href="https://www.youtube.com/@altj"
+                  href="https://open.spotify.com/artist/3XHO7cRUPCLOr6jwp8vsx5?si=wSaAGZZoQ6KL6b59X3QaMA"
                   target="_blank"
                   className="text-blue-600"
                 >
@@ -30,7 +30,7 @@ export default function Home() {
                 .
               </p>
               <p className="text-justify">
-                I build web and mobile applications with TypeScript, Go,  C# and Python. I am passionate about
+                I specialize in web application development and distributed systems. I am passionate about
                 creating digital solutions that solve real-world problems and
                 improve people&apos;s lives. I am currently building an
                  online learning platform called SomoLabs. Take a
@@ -75,7 +75,7 @@ export default function Home() {
               <div>
                 <div className="flex flex-col sm:flex-row items-start md:items-center justify-between gap-0 md:gap-2">
                   <p>
-                    Frontend Engineer @{" "}
+                    Software Engineer @{" "}
                     <a
                       href={"https://www.somolabs.com/"}
                       className="text-blue-600"
