@@ -30,11 +30,9 @@ export default function Home() {
                 .
               </p>
               <p className="text-justify">
-                I specialize in web application development and distributed systems. I am passionate about
-                creating digital solutions that solve real-world problems and
-                improve people&apos;s lives. I am currently building an
-                 online learning platform called SomoLabs. Take a
-                free tour at{" "}
+                I specialize in full-stack web application development, particularly in distributed systems. I am passionate about
+                creating digital solutions that solve real-world problems and enhance people&apos;s lives. Currently, I am building an
+                online learning platform called SomoLabs. Take a free tour at{" "}
                 <a
                   href="https://www.somolabs.com/"
                   target="_blank"
@@ -89,7 +87,7 @@ export default function Home() {
                   </p>
                 </div>
                 <p className="text-white/60 text-justify">
-                  As the lead frontend engineer, I architect the user interface,
+                  As a frontend engineer, I plan,design, develop and test user interfaces for SomoLabs&apos; online learning platform. I,
                   drive performance improvements, implement comprehensive
                   testing strategies, and ensure seamless integration with
                   backend services and third-party APIs.
