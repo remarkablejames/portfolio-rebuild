@@ -18,8 +18,7 @@ export default function Home() {
               {/*</p>*/}
               <p className="text-justify">
                 I love the craft of software engineering, Philosophy and
-                indie-pop music. When I’m not nerding out to something, you’ll
-                often find me listening to music. My favorite band is  British,{" "}
+                indie-pop music. When I’m not nerding out to something, I listen to music. My favorite band is  British,{" "}
                 <a
                   href="https://open.spotify.com/artist/3XHO7cRUPCLOr6jwp8vsx5?si=wSaAGZZoQ6KL6b59X3QaMA"
                   target="_blank"
@@ -30,17 +29,8 @@ export default function Home() {
                 .
               </p>
               <p className="text-justify">
-                I specialize in full-stack web application development, particularly in distributed systems. I am passionate about
-                creating digital solutions that solve real-world problems and enhance people&apos;s lives. Currently, I am building an
-                online learning platform called SomoLabs. Take a free tour at{" "}
-                <a
-                  href="https://www.somolabs.com/"
-                  target="_blank"
-                  className="text-blue-600"
-                >
-                  somolabs.com
-                </a>
-                .
+                I specialize in full-stack web application development. I am passionate about
+                creating digital solutions that solve real-world problems and enhance people&apos;s lives. My engineering skills slaps, see it for yourself here {"->"} <a href="/projects" className="text-blue-600">Projects</a>.
               </p>
             </div>
           </div>
@@ -87,13 +77,28 @@ export default function Home() {
                   </p>
                 </div>
                 <p className="text-white/60 text-justify">
-                  As a frontend engineer, I plan,design, develop and test user interfaces for SomoLabs&apos; online learning platform. I,
-                  drive performance improvements, implement comprehensive
-                  testing strategies, and ensure seamless integration with
-                  backend services and third-party APIs.
-                  {/* My role blends
-                  technical expertise with strategic product development,
-                  creating intuitive and efficient digital learning solutions. */}
+                  SomoLabs is a SaaS startup I co-founded, built and now work at. My contributions include building the platform&apos;s frontend, backend,  video streaming and cloud  infrastructure. I also lead the development of the platform&apos;s core features, including the course builder, user management, and content delivery systems.
+                </p>
+              </div>
+              <div>
+                <div className="flex flex-col sm:flex-row items-start md:items-center justify-between gap-0 md:gap-2">
+                  <p className="">
+                    Software Developer @ Grow Wright
+                  </p>
+                  <div className="border-t flex-grow border-zinc-700" />
+                  <p className="text-white/30 text-xs  mb-4 md:mb-0">
+                    Sept. 2023 - Dec. 2024
+                  </p>
+                </div>
+                <p className="text-white/60 text-justify mt-2">
+                  This was an 8 month contract to build a software solution for Grow Wright, a local staffing agency based in Ottawa. I single-handedly developed <a
+                    href={"https://apps.apple.com/ca/app/shiftwright/id6741173211"}
+                    className="text-blue-600"
+                >
+                  ShiftWright
+                </a>  mobile app, a platform that connects employers with temporary workers. The app is built leveraging React Native, Golang, Next.js, and Google Cloud Platform.
+                  A perfect showcase of my full-stack development skills touching on mobile, web, and cloud technologies.
+
                 </p>
               </div>
               <div>
