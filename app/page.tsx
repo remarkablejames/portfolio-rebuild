@@ -73,7 +73,7 @@ export default function Home() {
                   </p>
                   <div className="border-t flex-grow border-zinc-700" />
                   <p className="text-white/30 text-xs  mb-4 md:mb-0">
-                    Dec. 2023 - Present
+                    Jul. 2023 - Present
                   </p>
                 </div>
                 <p className="text-white/60 text-justify">
@@ -87,11 +87,11 @@ export default function Home() {
                   </p>
                   <div className="border-t flex-grow border-zinc-700" />
                   <p className="text-white/30 text-xs  mb-4 md:mb-0">
-                    Sept. 2023 - Dec. 2024
+                    Feb. 2024 - Feb. 2025
                   </p>
                 </div>
                 <p className="text-white/60 text-justify mt-2">
-                  This was an 8 month contract to build a software solution for Grow Wright, a local staffing agency based in Ottawa. I single-handedly developed <a
+                  This was a fixed-term contract to build a software solution for Grow Wright, a local staffing agency based in Ottawa. I single-handedly developed <a
                     href={"https://apps.apple.com/ca/app/shiftwright/id6741173211"}
                     className="text-blue-600"
                 >
