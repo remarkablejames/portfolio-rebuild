@@ -41,18 +41,6 @@ export default function ProjectDetails({ params }: any) {
           }
         </div>
       </div>
-        {
-            // If the project has images, show the gallery
-            project.images ? (
-                <MyGallery images={project.images} />
-            ) : (
-                <div className={"flex items-center justify-center"}>
-                <p className={"text-red-500 font-medium"}>
-                    No screenshot images available for this project
-                </p>
-                </div>
-            )
-        }
     </CenteredLayout>
       </FramerMotionWrapper>
   );

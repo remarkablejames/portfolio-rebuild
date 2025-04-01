@@ -6,7 +6,7 @@ function Page() {
         <CenteredLayout>
             <section className="w-full flex flex-col items-center justify-center text-md mt-12">
                 <h4 className="scroll-m-20 text-md sm:text-xl font-semibold tracking-tight pb-2 sm:pb-6 mb-8 sm:mb-0 border-b border-zinc-700 text-center sm:text-left">
-                    Software I use, gadgets I love, and other things I recommend.
+                    Software I Use and  Gadgets I Love
                 </h4>
 
                 {/* Workstation Section */}
