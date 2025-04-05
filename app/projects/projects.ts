@@ -18,8 +18,8 @@ export const AllProjects = [
     description:
         "In-production staff management mobile app for Grow Wright, a local staffing agency based in Ottawa. The app connects employers with temporary workers. The app is built leveraging React Native, Golang, Next.js, and deployed on Google Cloud Platform. A perfect showcase of my full-stack development skills touching on mobile, web, and cloud technologies.",
     link: {
-      href: "https://github.com/remarkablejames/Banquetly",
-      label: "Source code(GitHub)",
+      href: "https://apps.apple.com/ca/app/shiftwright/id6741173211",
+      label: "Live preview",
       active: true,
     },
   },
