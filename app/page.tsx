@@ -10,7 +10,12 @@ export default function Home() {
         <nav className="flex justify-end mb-8">
           <ul className="flex space-x-6">
             <li>
-              <Link href="#software" className="text-red-600 hover:text-red-800">
+              <Link href="/" className="text-red-600 hover:text-red-800">
+                About Me
+              </Link>
+            </li>
+            <li>
+              <Link href="/setup" className="text-red-600 hover:text-red-800">
                My Setup
               </Link>
             </li>
@@ -90,7 +95,7 @@ export default function Home() {
                 <BlackLogoIcon className={"w-28 h-auto"}/>
               </div>
               <div className="flex-1">
-                <h3 className="text-xl font-semibold mb-1 group-hover:text-blue-600 transition-colors">
+                <h3 className="text-lg font-semibold mb-1 group-hover:text-blue-600 transition-colors">
                   SomoLabs: A Global Marketplace for Structured Academic Courses
                 </h3>
                 <p className="text-xs mb-1 text-neutral-500">
@@ -114,7 +119,7 @@ export default function Home() {
               <ShiftWrightLogoIcon className={"w-28 h-auto"}/>
             </div>
             <div className="flex-1">
-              <h3 className="text-xl font-semibold mb-1 group-hover:text-blue-600 transition-colors">ShiftWright: Temporary Staff Management Platform (Web,Android & iOS)</h3>
+              <h3 className="text-lg font-semibold mb-1 group-hover:text-blue-600 transition-colors">ShiftWright: Temporary Staff Management Platform (Web,Android & iOS)</h3>
               <p className="text-xs mb-1 text-neutral-500">
                 Proprietary project for Grow Wright Consulting
               </p>
