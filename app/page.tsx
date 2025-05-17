@@ -42,14 +42,26 @@ export default function Home() {
                 remarkablejames@icloud.com
               </Link>
               <div className="flex space-x-3">
-                <Link href="https://github.com/remarkablejames" aria-label="GitHub">
-                  <Github className="w-5 h-5 stroke-1" />
+                <Link
+                  href="https://github.com/remarkablejames"
+                  aria-label="GitHub"
+                  className="hover:bg-gray-200 rounded-full p-1 transition-colors"
+                >
+                  <Github className="w-5 h-5 stroke-1 hover:stroke-red-600 transition-colors" />
                 </Link>
-                <Link href="https://www.linkedin.com/in/james-niyongira-551082156/" aria-label="LinkedIn">
-                  <Linkedin className="w-5 h-5 stroke-1" />
+                <Link
+                  href="https://www.linkedin.com/in/james-niyongira-551082156/"
+                  aria-label="LinkedIn"
+                  className="hover:bg-gray-200 rounded-full p-1 transition-colors"
+                >
+                  <Linkedin className="w-5 h-5 stroke-1 hover:stroke-blue-700 transition-colors" />
                 </Link>
-                <Link href="https://x.com/remarkablejames" aria-label="Twitter">
-                  <Twitter className="w-5 h-5 stroke-1" />
+                <Link
+                  href="https://x.com/remarkablejames"
+                  aria-label="Twitter"
+                  className="hover:bg-gray-200 rounded-full p-1 transition-colors"
+                >
+                  <Twitter className="w-5 h-5 stroke-1 hover:stroke-black transition-colors" />
                 </Link>
               </div>
             </div>
@@ -72,36 +84,37 @@ export default function Home() {
           <h2 className="text-2xl font-bold mb-4 border-b border-gray-300 pb-2">Notable Projects</h2>
 
           <Link href={"https://somolabs.com/"} target={"_blank"}>
-          <div className="flex flex-col md:flex-row gap-6 p-3 rounded-md hover:bg-gray-100 transition-colors duration-300 cursor-pointer ">
-            <div className="w-full md:w-64 flex-shrink-0 flex justify-center items-center border rounded-md">
-              <BlackLogoIcon className={"w-28 h-auto"}/>
+            <div
+                className="group flex flex-col md:flex-row gap-6 p-3 rounded-md hover:bg-gray-100 transition-colors duration-300 cursor-pointer ">
+              <div className="w-full md:w-64 flex-shrink-0 flex justify-center items-center border rounded-md">
+                <BlackLogoIcon className={"w-28 h-auto"}/>
+              </div>
+              <div className="flex-1">
+                <h3 className="text-xl font-semibold mb-1 group-hover:text-blue-600 transition-colors">
+                  SomoLabs: A Global Marketplace for Structured Academic Courses
+                </h3>
+                <p className="text-xs mb-1 text-neutral-500">
+                  Contributors: James Niyongira, Elvio Gonzalez Severino and Jean de Dieu Uwizeye
+                </p>
+                <p className="text-sm mb-3">
+                  An innovative platform that connects learners with structured academic courses from top universities and institutions worldwide. It offers a seamless experience for both learners and educators, facilitating knowledge sharing and skill development.
+                </p>
+                <p className="text-xs mb-3">
+                  Built with Next.js, Golang, PostgreSQL,Redis and deployed on AWS.
+                </p>
+              </div>
             </div>
-            <div className="flex-1">
-              <h3 className="text-xl font-semibold mb-1">
-                SomoLabs: A Global Marketplace for Structured Academic Courses
-              </h3>
-              <p className="text-xs mb-1 text-neutral-500">
-                Contributors: James Niyongira, Elvio Gonzalez Severino and Jean de Dieu Uwizeye
-              </p>
-              <p className="text-sm mb-3">
-                An innovative platform that connects learners with structured academic courses from top universities and institutions worldwide. It offers a seamless experience for both learners and educators, facilitating knowledge sharing and skill development.
-              </p>
-
-              <p className="text-xs mb-3">
-                Built with Next.js, Golang, PostgreSQL,Redis and deployed on AWS.
-              </p>
-            </div>
-          </div>
           </Link>
 
           {/* project 2 */}
           <Link href={"https://apps.apple.com/ca/app/shiftwright/id6741173211"} target={"_blank"}>
-          <div className="flex flex-col md:flex-row mt-4 gap-6 p-3 rounded-md hover:bg-gray-100 transition-colors duration-300 cursor-pointer ">
+            <div
+                className="group flex flex-col md:flex-row gap-6 mt-4 p-3 rounded-md hover:bg-gray-100 transition-colors duration-300 cursor-pointer ">
             <div className="w-full md:w-64 flex-shrink-0 flex justify-center items-center border rounded-md">
               <ShiftWrightLogoIcon className={"w-28 h-auto"}/>
             </div>
             <div className="flex-1">
-              <h3 className="text-xl font-semibold mb-1">ShiftWright: Temporary Staff Management Platform (Web,Android & iOS)</h3>
+              <h3 className="text-xl font-semibold mb-1 group-hover:text-blue-600 transition-colors">ShiftWright: Temporary Staff Management Platform (Web,Android & iOS)</h3>
               <p className="text-xs mb-1 text-neutral-500">
                 Proprietary project for Grow Wright Consulting
               </p>
