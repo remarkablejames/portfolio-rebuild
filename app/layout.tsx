@@ -1,34 +1,23 @@
-import type { Metadata } from 'next'
-import { Inter } from 'next/font/google'
-import './globals.css'
-import Navbar from "@/components/navbar";
-import AppHeader from "@/components/app-header";
-import AppFooter from "@/components/app-footer";
-import { GeistSans } from "geist/font/sans";
+import type React from "react"
+import type { Metadata } from "next"
+import { Inter } from "next/font/google"
+import "./globals.css"
 
-const inter = Inter({ subsets: ['latin'] })
+const inter = Inter({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
-  title: 'James Niyongira | Software Developer',
-  description: 'Seasoned web applications developer, remarkable at shipping clean and maintainable code.',
-    icons: {
-        icon: './favicon.ico',
-    },
+    title: "Nicholas Sharp",
+    description: "Personal academic website",
 }
 
 export default function RootLayout({
-  children,
-}: {
-  children: React.ReactNode
-}) {
-  return (
-    <html lang="en">
-      <body className={`${GeistSans.className} bg-black text-gray-300`}>
-      {/*<Navbar/>*/}
-      <AppHeader/>
-      {children}
-    <AppFooter/>
-      </body>
-    </html>
-  )
+                                       children,
+                                   }: Readonly<{
+    children: React.ReactNode
+}>) {
+    return (
+        <html lang="en">
+        <body className={inter.className}>{children}</body>
+        </html>
+    )
 }

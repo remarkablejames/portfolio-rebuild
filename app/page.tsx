@@ -1,133 +1,120 @@
-import CenteredLayout from "@/components/layout/centered-layout";
-import FramerMotionWrapper from "@/components/FramerMotionWrapper";
+import Image from "next/image"
+import Link from "next/link"
+import { Github, Linkedin, Twitter, Youtube, GraduationCap } from "lucide-react"
+import {BlackLogoIcon, ShiftWrightLogoIcon} from "@/components/icons";
 
 export default function Home() {
   return (
-    <FramerMotionWrapper>
-      <CenteredLayout>
-        <section className="w-full flex flex-col items-center justify-center text-md">
-          <div className="flex flex-col sm:flex-row gap-3">
-            <p className="text-neutral-500 w-full sm:w-[5rem] text-start sm:text-end">
-              Summary:
-            </p>
-            <div className="w-full sm:max-w-lg space-y-4">
-              <p>Hi, I’m James – a minimalist software engineer based in Ottawa.</p>
-              {/*<p>*/}
-              {/*    I currently work as a Frontend Developer at <a href={"https://www.somolabs.com/"} target="_blank" className="text-blue-600">SomoLabs</a>, an integrated online learning*/}
-              {/*    platform that offers curriculum-aligned courses delivered in  multimedia format.*/}
-              {/*</p>*/}
-              <p className="text-justify">
-                I love the craft of software engineering, Philosophy and
-                indie-pop music. When I’m not nerding out to something, I listen to music. My favorite band is  British,{" "}
-                <a
-                  href="https://open.spotify.com/artist/3XHO7cRUPCLOr6jwp8vsx5?si=wSaAGZZoQ6KL6b59X3QaMA"
-                  target="_blank"
-                  className="text-blue-600"
-                >
-                  Alt-J
-                </a>
-                .
+      <div className="max-w-4xl mx-auto px-4 py-8">
+        {/* Navigation */}
+        <nav className="flex justify-end mb-8">
+          <ul className="flex space-x-6">
+            <li>
+              <Link href="#software" className="text-red-600 hover:text-red-800">
+               My Setup
+              </Link>
+            </li>
+            <li>
+              <Link href="#cv" className="text-red-600 hover:text-red-800">
+                Resume
+              </Link>
+            </li>
+          </ul>
+        </nav>
+
+        {/* Profile Section */}
+        <div className="flex flex-col md:flex-row items-center md:items-start gap-8 mb-12">
+          <div className="w-48 h-auto relative flex-shrink-0">
+            <Image
+                src="https://res.cloudinary.com/dhka6cqkn/image/upload/f_auto,q_auto/v1/Brainwave-images/in-production%20app%20images/founders/ipcbhvyliddnitbn54mr"
+                alt="Profile photo"
+                width={256}
+                height={256}
+                className="rounded-full"
+            />
+          </div>
+
+          <div className="flex-1">
+            <h1 className="text-3xl font-bold text-center md:text-left mb-2">James Niyongira</h1>
+
+            <div className="flex justify-center md:justify-between space-x-4 mb-4">
+              <Link href="mailto:remarkablejames@icloud.com" className="text-red-600 text-sm hover:text-red-800">
+                remarkablejames@icloud.com
+              </Link>
+              <div className="flex space-x-3">
+                <Link href="https://github.com/remarkablejames" aria-label="GitHub">
+                  <Github className="w-5 h-5 stroke-1" />
+                </Link>
+                <Link href="https://www.linkedin.com/in/james-niyongira-551082156/" aria-label="LinkedIn">
+                  <Linkedin className="w-5 h-5 stroke-1" />
+                </Link>
+                <Link href="https://x.com/remarkablejames" aria-label="Twitter">
+                  <Twitter className="w-5 h-5 stroke-1" />
+                </Link>
+              </div>
+            </div>
+
+            <div className="space-y-4 text-gray-800">
+              <p className={"text-sm md:text-md"}>
+                I’m a full stack web application developer with sharp skills in React.js/Next.js, backend solution development in Go(Golang), ASP.NET and Python (Django). I’m also an aspiring entrepreneur, currently building SomoLabs — a global marketplace for structured academic courses. I work as a full stack software engineer at Grow Wright Consulting, Ottawa, Canada.
               </p>
-              <p className="text-justify">
-                I specialize in full-stack web application development. I am passionate about
-                creating digital solutions that solve real-world problems and enhance people&apos;s lives. My engineering skills slaps, see it for yourself here {"->"} <a href="/projects" className="text-blue-600">Projects</a>.
+
+              <p className={"text-sm md:text-md"}>
+                I graduated with a Diploma in Web Development & Internet Applications from Algonquin College in 2024, and I’ve been actively applying my skills in  TypeScript, Go, and Python to various projects. Outside of coding, I enjoy cycling, reading books and sleeping.
               </p>
             </div>
           </div>
-        </section>
+        </div>
 
-        <section className="w-full flex flex-col items-center justify-center text-md mt-12">
-          <div className="flex flex-col sm:flex-row gap-3">
-            <p className="text-neutral-500 w-full sm:w-[5rem] text-start sm:text-end">
-              Education:
-            </p>
-            <div className="w-full sm:max-w-lg">
-              <p>
-                Ontario College Diploma in Web Development & Internet
-                Application
+
+        {/* Projects Section */}
+        <div id="research" className="mb-12">
+          <h2 className="text-2xl font-bold mb-4 border-b border-gray-300 pb-2">Notable Projects</h2>
+
+          <Link href={"https://somolabs.com/"} target={"_blank"}>
+          <div className="flex flex-col md:flex-row gap-6 p-3 rounded-md hover:bg-gray-100 transition-colors duration-300 cursor-pointer ">
+            <div className="w-full md:w-64 flex-shrink-0 flex justify-center items-center border rounded-md">
+              <BlackLogoIcon className={"w-28 h-auto"}/>
+            </div>
+            <div className="flex-1">
+              <h3 className="text-xl font-semibold mb-1">
+                SomoLabs: A Global Marketplace for Structured Academic Courses
+              </h3>
+              <p className="text-xs mb-1 text-neutral-500">
+                Contributors: James Niyongira, Elvio Gonzalez Severino and Jean de Dieu Uwizeye
               </p>
-              <p className="text-white/50 mt-2">
-                Algonquin College of Applied Arts and Technology - Ottawa, ON
+              <p className="text-sm mb-3">
+                An innovative platform that connects learners with structured academic courses from top universities and institutions worldwide. It offers a seamless experience for both learners and educators, facilitating knowledge sharing and skill development.
               </p>
-              <p className="text-white/50 text-xs mt-2">2022 - 2024</p>
+
+              <p className="text-xs mb-3">
+                Built with Next.js, Golang, PostgreSQL,Redis and deployed on AWS.
+              </p>
             </div>
           </div>
-        </section>
+          </Link>
 
-        <section className="w-full flex flex-col items-center justify-center text-md mt-12">
-          <div className="flex flex-col sm:flex-row gap-3">
-            <p className="text-neutral-500 w-full sm:w-[5rem] text-start sm:text-end">
-              Work:
-            </p>
-            <div className="w-full sm:w-[32rem] space-y-6">
-              <div>
-                <div className="flex flex-col sm:flex-row items-start md:items-center justify-between gap-0 md:gap-2">
-                  <p>
-                    Software Engineer @{" "}
-                    <a
-                      href={"https://www.somolabs.com/"}
-                      className="text-blue-600"
-                    >
-                      SomoLabs
-                    </a>
-                  </p>
-                  <div className="border-t flex-grow border-zinc-700" />
-                  <p className="text-white/30 text-xs  mb-4 md:mb-0">
-                    Jul. 2023 - Present
-                  </p>
-                </div>
-                <p className="text-white/60 text-justify">
-                  SomoLabs is a SaaS startup I co-founded, built and now work at. My contributions include building the platform&apos;s frontend, backend,  video streaming and cloud  infrastructure. I also lead the development of the platform&apos;s core features, including the course builder, user management, and content delivery systems.
+          {/* project 2 */}
+          <Link href={"https://apps.apple.com/ca/app/shiftwright/id6741173211"} target={"_blank"}>
+          <div className="flex flex-col md:flex-row mt-4 gap-6 p-3 rounded-md hover:bg-gray-100 transition-colors duration-300 cursor-pointer ">
+            <div className="w-full md:w-64 flex-shrink-0 flex justify-center items-center border rounded-md">
+              <ShiftWrightLogoIcon className={"w-28 h-auto"}/>
+            </div>
+            <div className="flex-1">
+              <h3 className="text-xl font-semibold mb-1">ShiftWright: Temporary Staff Management Platform (Web,Android & iOS)</h3>
+              <p className="text-xs mb-1 text-neutral-500">
+                Proprietary project for Grow Wright Consulting
+              </p>
+              <p className="text-sm mb-3">
+                A comprehensive platform designed to streamline the management of temporary staff for Grow Wright Consulting. It connects employers with available workers, ensuring efficient staffing solutions.
+              </p>
+                <p className="text-xs mb-3">
+                    Built with React Native, Golang, Next.js, PostgreSQL and deployed on Google Cloud Platform.
                 </p>
-              </div>
-              <div>
-                <div className="flex flex-col sm:flex-row items-start md:items-center justify-between gap-0 md:gap-2">
-                  <p className="">
-                    Software Developer @ Grow Wright
-                  </p>
-                  <div className="border-t flex-grow border-zinc-700" />
-                  <p className="text-white/30 text-xs  mb-4 md:mb-0">
-                    Feb. 2024 - Feb. 2025
-                  </p>
-                </div>
-                <p className="text-white/60 text-justify mt-2">
-                  This was a fixed-term contract to build a software solution for Grow Wright, a local staffing agency based in Ottawa. I single-handedly developed <a
-                    href={"https://apps.apple.com/ca/app/shiftwright/id6741173211"}
-                    className="text-blue-600"
-                >
-                  ShiftWright
-                </a>  mobile app, a platform that connects employers with temporary workers. The app is built leveraging React Native, Golang, Next.js, and Google Cloud Platform.
-                  A perfect showcase of my full-stack development skills touching on mobile, web, and cloud technologies.
-
-                </p>
-              </div>
-              <div>
-                <div className="flex flex-col sm:flex-row items-start md:items-center justify-between gap-0 md:gap-2">
-                  <p className="">
-                    Software Developer Intern @ Algonquin College
-                  </p>
-                  <div className="border-t flex-grow border-zinc-700" />
-                  <p className="text-white/30 text-xs  mb-4 md:mb-0">
-                    Sept. 2023 - Dec. 2024
-                  </p>
-                </div>
-                <p className="text-white/60 text-justify mt-2">
-                  During this internship, I transitioned beyond traditional
-                  software development into a more holistic role that centered
-                  on entrepreneurial strategy and innovation.
-                  {/* This experience
-                  was pivotal in shaping my understanding of technology&apos;s
-                  potential to solve educational challenges, ultimately
-                  inspiring the conceptualization of SomoLabs. Rather than
-                  focusing solely on coding, I gained insights into the broader
-                  ecosystem of technological innovation, product development,
-                  and entrepreneurial thinking. */}
-                </p>
-              </div>
             </div>
           </div>
-        </section>
-      </CenteredLayout>
-    </FramerMotionWrapper>
-  );
+          </Link>
+        </div>
+      </div>
+  )
 }
