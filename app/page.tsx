@@ -102,9 +102,9 @@ export default function Home() {
 
           <Link href={"https://somolabs.com/"} target={"_blank"}>
             <div
-                className="group flex flex-col md:flex-row gap-6 p-3 rounded-md hover:bg-gray-100 transition-colors duration-300 cursor-pointer ">
-              <div className="w-full md:w-64 flex-shrink-0 flex justify-center items-center border rounded-md">
-                <BlackLogoIcon className={"w-28 h-auto"}/>
+                className="group flex flex-col md:flex-row gap-2 lg:gap-6 p-3 rounded-md hover:bg-gray-100 transition-colors duration-300 cursor-pointer ">
+              <div className="w-full md:w-64 flex-shrink-0 flex justify-start lg:justify-center items-center border-0 lg:border rounded-md">
+                <BlackLogoIcon className={"w-16 lg:w-28 h-auto"}/>
               </div>
               <div className="flex-1">
                 <h3 className="text-lg font-semibold mb-1 group-hover:text-blue-600 transition-colors">
@@ -126,9 +126,9 @@ export default function Home() {
           {/* project 2 */}
           <Link href={"https://apps.apple.com/ca/app/shiftwright/id6741173211"} target={"_blank"}>
             <div
-                className="group flex flex-col md:flex-row gap-6 mt-4 p-3 rounded-md hover:bg-gray-100 transition-colors duration-300 cursor-pointer ">
-            <div className="w-full md:w-64 flex-shrink-0 flex justify-center items-center border rounded-md">
-              <ShiftWrightLogoIcon className={"w-20 h-auto"}/>
+                className="group flex flex-col md:flex-row gap-2 lg:gap-6 mt-4 p-3 rounded-md hover:bg-gray-100 transition-colors duration-300 cursor-pointer ">
+            <div className="w-full md:w-64 flex-shrink-0 flex justify-start lg:justify-center items-center border-0 lg:border rounded-md">
+              <ShiftWrightLogoIcon className={"w-8 lg:w-16 h-auto"}/>
             </div>
             <div className="flex-1">
               <h3 className="text-lg font-semibold mb-1 group-hover:text-blue-600 transition-colors">ShiftWright: Temporary Staff Management Platform (Web,Android & iOS)</h3>
