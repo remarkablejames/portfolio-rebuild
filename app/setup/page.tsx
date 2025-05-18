@@ -18,11 +18,6 @@ function Page() {
                                 My Setup
                             </Link>
                         </li>
-                        <li>
-                            <Link href="#cv" className="text-red-600 hover:text-red-800">
-                                Resume
-                            </Link>
-                        </li>
                     </ul>
                 </nav>
                 <h4 className="scroll-m-20 text-md sm:text-xl font-semibold tracking-tight pb-2  mb-12 sm:mb-0 border-b  text-center sm:text-left">
