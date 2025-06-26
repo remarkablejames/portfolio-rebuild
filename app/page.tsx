@@ -42,7 +42,7 @@ export default function Home() {
         <div className="flex flex-col md:flex-row items-center md:items-start gap-6 md:gap-8 mb-8 md:mb-12">
           <div className="w-32 sm:w-40 md:w-48 h-auto relative flex-shrink-0">
             <Image
-                src="https://res.cloudinary.com/dhka6cqkn/image/upload/f_auto,q_auto/v1/Brainwave-images/in-production%20app%20images/founders/ipcbhvyliddnitbn54mr"
+                src="https://res.cloudinary.com/dhka6cqkn/image/upload/f_auto,q_auto/v1/potfolio-images/b2usc3c6nwojkg0zycd8"
                 alt="Profile photo"
                 width={256}
                 height={256}
@@ -85,7 +85,7 @@ export default function Home() {
 
             <div className="space-y-3 text-gray-800">
               <p className="text-sm sm:text-base">
-                I&apos;m a full stack web application developer with sharp skills in React.js/Next.js, backend solution development in Go(Golang), ASP.NET and Python (Django). I&apos;m also an aspiring entrepreneur, currently building SomoLabs — a global marketplace for structured academic courses. I work as a full stack software engineer at Grow Wright Consulting, Ottawa, Canada.
+                I&apos;m a full stack web application developer proficient in frontend technologies (React.js/Next.js, TailwindCSS) as well as backend solution development in Go(Golang), C# (ASP.NET Core) and Python (Django). I&apos;m also an aspiring entrepreneur, currently building SomoLabs — a global marketplace for structured academic courses.
               </p>
 
               <p className="text-sm sm:text-base">
@@ -114,7 +114,7 @@ export default function Home() {
                   Contributors: James Niyongira, Elvio Gonzalez Severino and Jean de Dieu Uwizeye
                 </p>
                 <p className="text-sm mb-3">
-                  An innovative platform that connects learners with structured academic courses from top universities and institutions worldwide. It offers a seamless experience for both learners and educators, facilitating knowledge sharing and skill development.
+                  An innovative platform that connects learners with structured academic courses from expert instructors worldwide. It offers a seamless experience for both learners and educators, facilitating knowledge sharing and skill development.
                 </p>
                 <p className="text-xs mb-3">
                   Built with Next.js, Golang, PostgreSQL,Redis and deployed on AWS.
@@ -143,6 +143,29 @@ export default function Home() {
                 </p>
             </div>
           </div>
+          </Link>
+
+          <Link href={"https://github.com/remarkablejames/lexical-editor-extended"} target={"_blank"}>
+            <div
+                className="group flex flex-col md:flex-row gap-2 lg:gap-6 p-3 rounded-md hover:bg-gray-100 transition-colors duration-300 cursor-pointer ">
+              <div className="w-full md:w-64 flex-shrink-0 flex justify-start lg:justify-center items-center border-0 lg:border rounded-md">
+
+              </div>
+              <div className="flex-1">
+                <h3 className="text-lg font-semibold mb-1 group-hover:text-blue-600 transition-colors">
+                  WYSIWYG Editor: Extended Lexical Editor (Meta)
+                </h3>
+                <p className="text-xs mb-1 text-neutral-500">
+                  A Meta open-source project forked and extended by James Niyongira
+                </p>
+                <p className="text-sm mb-3">
+                  I added a custom extension to support complex Latex equations rendering using a combination of MathJax, KaTeX, and custom React components. This extension allows users to seamlessly integrate complex mathematical expressions into their content, enhancing the editor&apos;s capabilities for academic and technical writing.
+                </p>
+                <p className="text-xs mb-3">
+                  Built with TypeScript, React, and Lexical Editor (Meta&apos;s open-source project).
+                </p>
+              </div>
+            </div>
           </Link>
         </div>
       </div>
