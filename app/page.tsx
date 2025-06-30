@@ -84,12 +84,12 @@ export default function Home() {
             </div>
 
             <div className="space-y-3 text-gray-800">
-              <p className="text-sm sm:text-base">
-                I&apos;m a full stack web application developer proficient in frontend technologies (React.js/Next.js, TailwindCSS) as well as backend solution development in Go(Golang), C# (ASP.NET Core) and Python (Django). I&apos;m also an aspiring entrepreneur, currently building SomoLabs — a global marketplace for structured academic courses.
+              <p className="text-sm ">
+                I&apos;m a full stack web application developer proficient in frontend technologies (React.js/Next.js, TailwindCSS) as well as backend solution development in Go(Golang), C# (ASP.NET Core) and Python (Django).
               </p>
 
-              <p className="text-sm sm:text-base">
-                I graduated with a Diploma in Web Development & Internet Applications from Algonquin College in 2024, and I&apos;ve been actively applying my skills in TypeScript, Go, and Python to various projects. Outside of coding, I enjoy cycling, reading books and sleeping.
+              <p className="text-sm ">
+                I graduated with a Diploma in Web Development & Internet Applications from Algonquin College in 2024, and I&apos;ve been actively applying my skills in TypeScript, Go, and Python to various projects. Outside of coding, I enjoy cycling, reading books and sleeping 💤😄.
               </p>
             </div>
           </div>
