@@ -89,7 +89,7 @@ export default function Home() {
               </p>
 
               <p className="text-sm ">
-                I graduated with a Diploma in Web Development & Internet Applications from Algonquin College in 2024, and I&apos;ve been actively applying my skills in TypeScript, Go, and Python to various projects. Outside of coding, I enjoy cycling, reading books and sleeping 💤😄.
+                I graduated with a Diploma in Web Development & Internet Applications from Algonquin College in 2024, and I&apos;ve been actively applying my skills in TypeScript, Go, and Python to various projects. Outside of coding, I enjoy cycling, reading books and sleeping 💤.
               </p>
             </div>
           </div>
