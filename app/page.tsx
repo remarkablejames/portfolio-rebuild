@@ -84,12 +84,16 @@ export default function Home() {
             </div>
 
             <div className="space-y-3 text-gray-800">
-              <p className="text-sm ">
-                I&apos;m a full stack web application developer proficient in frontend technologies (React.js/Next.js, TailwindCSS) as well as backend solution development in Go(Golang), C# (ASP.NET Core) and Python (Django).
+              <p className="text-sm">
+                Over a year ago, I graduated with a diploma in Web Application Development. Despite aiming for a traditional dev job, I struggled to break into the industry. Instead of switching paths, I turned my frustration into motivation and dove head-first into the startup grind to push my limits and build something meaningful. I landed a full-time contract as a full-stack engineer at a startup, where I worked for over a year until the contract ended. Since then, I&apos;ve been focused on building my own SaaS startup from the ground up.
               </p>
 
-              <p className="text-sm ">
-                I graduated with a Diploma in Web Development & Internet Applications from Algonquin College in 2024, and I&apos;ve been actively applying my skills in TypeScript, Go, and Python to various projects. Outside of coding, I enjoy cycling, reading books and sleeping 💤.
+              <p className="text-sm">
+                In the middle of that I am still open to work and looking for a new role.  I genuinely love building software.  I don&apos;t have big tech names on my resume, but I have strong, battle-tested skills that allow me to take an idea from zero to a working prototype in a matter of weeks. My core strengths are in developing Cloud-native applications using Go (Golang) / Nodejs and C#, Test automation and frontend development with Next.js.
+              </p>
+
+              <p className="text-sm">
+                Outside of software, my life is pretty simple: I code and I bike. That&apos;s about it. If you&apos;re looking for someone who&apos;s all in—someone who builds, ships, and learns fast—try me.
               </p>
             </div>
           </div>
@@ -131,7 +135,7 @@ export default function Home() {
               <ShiftWrightLogoIcon className={"w-8 lg:w-16 h-auto"}/>
             </div>
             <div className="flex-1">
-              <h3 className="text-lg font-semibold mb-1 group-hover:text-blue-600 transition-colors">ShiftWright: Temporary Staff Management Platform (Web,Android & iOS)</h3>
+              <h3 className="text-lg font-semibold mb-1 group-hover:text-blue-600 transition-colors">ShiftWright: Staff Management Platform (Web,Android & iOS)</h3>
               <p className="text-xs mb-1 text-neutral-500">
                 Proprietary project for Grow Wright Consulting
               </p>
