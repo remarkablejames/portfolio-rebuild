@@ -89,7 +89,7 @@ export default function Home() {
               </p>
 
               <p className="text-sm">
-                In the middle of that I am still open to work and looking for a new role.  I genuinely love building software.  I don&apos;t have big tech names on my resume, but I have strong, battle-tested skills that allow me to take an idea from zero to a working prototype in a matter of weeks. My core strengths are in developing Cloud-native applications using Go (Golang) / Nodejs and C#, Test automation and frontend development with Next.js.
+                In the middle of that I am still open to work and looking for a new role.  I genuinely love building software.  I don&apos;t have big tech names on my resume, but I have strong, battle-tested skills that allow me to take an idea from zero to a working prototype in a matter of weeks. My core strengths are in developing Cloud-native applications using Go (Golang) / Nodejs and C#, Test automation and I&apos;ve got mad skills in frontend development using Next.js/React.
               </p>
 
               <p className="text-sm">
@@ -104,24 +104,20 @@ export default function Home() {
         <div id="research" className="mb-12">
           <h2 className="text-2xl font-bold mb-4 border-b border-gray-300 pb-2">Notable Projects</h2>
 
-          <Link href={"https://somolabs.com/"} target={"_blank"}>
+          <Link href={"https://tanstan.com/"} target={"_blank"}>
             <div
-                className="group flex flex-col md:flex-row gap-2 lg:gap-6 p-3 rounded-md hover:bg-gray-100 transition-colors duration-300 cursor-pointer ">
-              <div className="w-full md:w-64 flex-shrink-0 flex justify-start lg:justify-center items-center border-0 lg:border rounded-md">
-                <BlackLogoIcon className={"w-16 lg:w-28 h-auto"}/>
-              </div>
+                className="group flex flex-col md:flex-row gap-2 lg:gap-6 p-3 rounded-md  transition-colors duration-300 cursor-pointer ">
               <div className="flex-1">
                 <h3 className="text-lg font-semibold mb-1 group-hover:text-blue-600 transition-colors">
-                  SomoLabs: A Global Marketplace for Structured Academic Courses
+                  Tanstan: Community-driven Learning Platform
                 </h3>
-                <p className="text-xs mb-1 text-neutral-500">
-                  Contributors: James Niyongira, Elvio Gonzalez Severino and Jean de Dieu Uwizeye
-                </p>
+
                 <p className="text-sm mb-3">
-                  An innovative platform that connects learners with structured academic courses from expert instructors worldwide. It offers a seamless experience for both learners and educators, facilitating knowledge sharing and skill development.
+                  This a patreon-like platform that allows content creators to monetize their expertise through community groups built around their content.
+                   It enables creators to share knowledge, engage with their audience, and build a sustainable income stream through paid subscriptions.
                 </p>
                 <p className="text-xs mb-3">
-                  Built with Next.js, Golang, PostgreSQL,Redis and deployed on AWS.
+                  Tech stack: Golang, TypeScript(Node.js), Next.js, PostgreSQL, Redis, and deployed on Google Cloud Platform.
                 </p>
               </div>
             </div>
@@ -130,10 +126,7 @@ export default function Home() {
           {/* project 2 */}
           <Link href={"https://apps.apple.com/ca/app/shiftwright/id6741173211"} target={"_blank"}>
             <div
-                className="group flex flex-col md:flex-row gap-2 lg:gap-6 mt-4 p-3 rounded-md hover:bg-gray-100 transition-colors duration-300 cursor-pointer ">
-            <div className="w-full md:w-64 flex-shrink-0 flex justify-start lg:justify-center items-center border-0 lg:border rounded-md">
-              <ShiftWrightLogoIcon className={"w-8 lg:w-16 h-auto"}/>
-            </div>
+                className="group flex flex-col md:flex-row gap-2 lg:gap-6 mt-4 p-3 rounded-md  transition-colors duration-300 cursor-pointer ">
             <div className="flex-1">
               <h3 className="text-lg font-semibold mb-1 group-hover:text-blue-600 transition-colors">ShiftWright: Staff Management Platform (Web,Android & iOS)</h3>
               <p className="text-xs mb-1 text-neutral-500">
@@ -151,16 +144,13 @@ export default function Home() {
 
           <Link href={"https://github.com/remarkablejames/lexical-editor-extended"} target={"_blank"}>
             <div
-                className="group flex flex-col md:flex-row gap-2 lg:gap-6 p-3 rounded-md hover:bg-gray-100 transition-colors duration-300 cursor-pointer ">
-              <div className="w-full md:w-64 flex-shrink-0 flex justify-start lg:justify-center items-center border-0 lg:border rounded-md">
-
-              </div>
+                className="group flex flex-col md:flex-row gap-2 lg:gap-6 p-3 rounded-md  transition-colors duration-300 cursor-pointer ">
               <div className="flex-1">
                 <h3 className="text-lg font-semibold mb-1 group-hover:text-blue-600 transition-colors">
                   WYSIWYG Editor: Extended Lexical Editor (Meta)
                 </h3>
                 <p className="text-xs mb-1 text-neutral-500">
-                  A Meta open-source project forked and extended by James Niyongira
+                  A Meta open-source project I forked and extended
                 </p>
                 <p className="text-sm mb-3">
                   I added a custom extension to support complex Latex equations rendering using a combination of MathJax, KaTeX, and custom React components. This extension allows users to seamlessly integrate complex mathematical expressions into their content, enhancing the editor&apos;s capabilities for academic and technical writing.
