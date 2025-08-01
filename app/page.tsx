@@ -85,15 +85,15 @@ export default function Home() {
 
             <div className="space-y-3 text-gray-800">
               <p className="text-sm">
-                Over a year ago, I graduated with a diploma in Web Application Development. Despite aiming for a traditional dev job, I struggled to break into the industry. Instead of switching paths, I turned my frustration into motivation and dove head-first into the startup grind to push my limits and build something meaningful. I landed a full-time contract as a full-stack engineer at a startup, where I worked for over a year until the contract ended. Since then, I&apos;ve been focused on building my own SaaS startup from the ground up.
+                Hi, My name is James and I am a die-hard lover of software engineering. I have over 2 years of experience working in various roles including Test automation, backend and mostly frontend development in React/nextjs ecosystems.
               </p>
 
               <p className="text-sm">
-                In the middle of that I am still open to work and looking for a new role.  I genuinely love building software.  I don&apos;t have big tech names on my resume, but I have strong, battle-tested skills that allow me to take an idea from zero to a working prototype in a matter of weeks. My core strengths are in developing Cloud-native applications using Go (Golang) / Nodejs and C#, Test automation and I&apos;ve got mad skills in frontend development using Next.js/React.
+                  I genuinely love building software/web applications.  I don&apos;t have big tech names on my resume, but I have strong, battle-tested skills that allow me to take an idea from zero to a working prototype in a matter of days. My core strengths are in developing Cloud-native applications using Go (Golang) / Nodejs and C#, Test automation and I&apos;ve got mad skills in frontend development using Next.js/React.
               </p>
 
               <p className="text-sm">
-                Outside of software, my life is pretty simple: I code and I bike. That&apos;s about it. If you&apos;re looking for someone who&apos;s all in—someone who builds, ships, and learns fast—try me.
+                Outside of coding, my life is pretty simple: I code and I bike. That&apos;s about it. If you&apos;re looking for someone who&apos;s all in—someone who builds, ships, and learns fast—try me.
               </p>
             </div>
           </div>
@@ -104,16 +104,17 @@ export default function Home() {
         <div id="research" className="mb-12">
           <h2 className="text-2xl font-bold mb-4 border-b border-gray-300 pb-2">Notable Projects</h2>
 
-          <Link href={"https://tanstan.com/"} target={"_blank"}>
+          <Link href={"https://flairspot.com/"} target={"_blank"}>
             <div
                 className="group flex flex-col md:flex-row gap-2 lg:gap-6 p-3 rounded-md  transition-colors duration-300 cursor-pointer ">
               <div className="flex-1">
                 <h3 className="text-lg font-semibold mb-1 group-hover:text-blue-600 transition-colors">
-                  Tanstan: Community-driven Learning Platform
+                  Flairspot: Community-driven Learning Platform (Full-stack Web App)
                 </h3>
 
                 <p className="text-sm mb-3">
-                  This a patreon-like platform that allows content creators to monetize their expertise through community groups built around their content.
+                  If Udemy and Patreon had a baby, it would be Flairspot.
+                  This a  platform  allows content creators to build audience around their expertise through community groups where they can create courses, posts, digital products and more.
                    It enables creators to share knowledge, engage with their audience, and build a sustainable income stream through paid subscriptions.
                 </p>
                 <p className="text-xs mb-3">
