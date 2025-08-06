@@ -85,7 +85,7 @@ export default function Home() {
 
             <div className="space-y-3 text-gray-800">
               <p className="text-sm">
-                Hi, My name is James and I am a die-hard lover of software engineering. I have over 2 years of experience working in various roles including Test automation, backend and mostly frontend development in React/nextjs ecosystems.
+                Hi, My name is James and I am a cracked software engineer. I have over 2 years of experience working in various roles including Test automation, backend and mostly frontend development in React/nextjs ecosystems.
               </p>
 
               <p className="text-sm">
@@ -94,6 +94,10 @@ export default function Home() {
 
               <p className="text-sm">
                 Outside of coding, my life is pretty simple: I code and I bike. That&apos;s about it. If you&apos;re looking for someone who&apos;s all in—someone who builds, ships, and learns fast—try me.
+              </p>
+
+              <p className="text-sm">
+                Most of my experience comes from working on my own startup company, <a href={"https://flairspot.com"} className={"text-blue-600 font-medium hover:cursor-pointer"}>Flairspot</a> .
               </p>
             </div>
           </div>
